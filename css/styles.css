@@ -16,14 +16,37 @@ body {
   height: 100vh;
 }
 
-.saudacao {
+.um .saudacao {
   position: absolute;
-  top: 5rem;
+  top: 4.5rem;
   left: 50%;
   font-size: 1.3rem;
-  font-weight: 200;
+  font-weight: 400;
   margin-right: -50%;
   transform: translate(-50%);
+}
+
+.um .title {
+  position: absolute;
+  font-size: 1.1rem;
+  font-weight: 100;
+  top: 8rem;
+  left: 34.1rem;
+}
+
+.um .ric {
+  position: absolute;
+  top: 9.8rem;
+  left: 34.2rem;
+  font-size: 1.1rem;
+}
+
+.um .p {
+  position: absolute;
+  font-size: 1.1rem;
+  font-weight: 100;
+  top: 9.8rem;
+  left: 38.2rem;
 }
 
 .um .carta {

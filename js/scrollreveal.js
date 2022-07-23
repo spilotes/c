@@ -1,11 +1,30 @@
 ScrollReveal({ reset: true });
 
-ScrollReveal().reveal(".carta", {
+ScrollReveal().reveal(".saudacao", {
   duration: 2000,
 });
 
-ScrollReveal().reveal(".saudacao", {
+ScrollReveal().reveal(".title", {
   origin: "top",
-  distance: "5rem",
-  duration: 2000,
+  distance: "2rem",
+  duration: 1500,
+  delay: 1500,
+});
+
+ScrollReveal().reveal(".ric", {
+  origin: "top",
+  distance: "2rem",
+  duration: 1500,
+  delay: 1500,
+});
+
+ScrollReveal().reveal(".p", {
+  origin: "top",
+  distance: "2rem",
+  duration: 1500,
+  delay: 1500,
+});
+
+ScrollReveal().reveal(".carta", {
+  duration: 3000,
 });
