@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: #000000;
+  overflow-x: hidden;
+}
+
+.um {
+  width: 100vw;
+  height: 100vh;
+}
+
+.saudacao {
+  position: absolute;
+  top: 5rem;
+  left: 50%;
+  font-size: 1.3rem;
+  font-weight: 200;
+  margin-right: -50%;
+  transform: translate(-50%);
+}
+
+.um .carta {
+  position: absolute;
+  width: 12rem;
+  top: 50%;
+  left: 50%;
+  cursor: pointer;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.5s ease-in-out;
+  filter: drop-shadow(0 0 3rem purple);
+}
+
+.um .carta:hover {
+  width: 12.5rem;
+  left: 49.8%;
+}
+
+.um .yoda {
+  position: absolute;
+  width: 15rem;
+  top: 28rem;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+  transition: all 0.5s ease-in-out;
+}
+
+.um .yoda:hover {
+  filter: drop-shadow(0 0 1rem #00c91e);
+}
