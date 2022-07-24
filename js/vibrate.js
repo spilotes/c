@@ -1,1 +1,1 @@
-window.navigator.vibrate(1000);
+navigator.vibrate(250);
