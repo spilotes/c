@@ -8,21 +8,21 @@ ScrollReveal().reveal(".title", {
   origin: "top",
   distance: "2rem",
   duration: 1500,
-  delay: 1500,
+  delay: 1800,
 });
 
 ScrollReveal().reveal(".ric", {
   origin: "top",
   distance: "2rem",
   duration: 1500,
-  delay: 1500,
+  delay: 1800,
 });
 
 ScrollReveal().reveal(".p", {
   origin: "top",
   distance: "2rem",
   duration: 1500,
-  delay: 1500,
+  delay: 1800,
 });
 
 ScrollReveal().reveal(".carta", {
