@@ -28,3 +28,5 @@ ScrollReveal().reveal(".p", {
 ScrollReveal().reveal(".carta", {
   duration: 3000,
 });
+
+window.navigator.vibrate(1000);
