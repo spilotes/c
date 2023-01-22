@@ -40,6 +40,38 @@ body {
   height: 100vh;
 }
 
+.um .ano {
+  position: absolute;
+  color: #c9d1d9;
+  top: 0.5rem;
+  left: 0.5rem;
+  font-size: 1.1rem;
+  white-space: nowrap;
+  transition: all 0.3s ease-in-out;
+}
+
+.um .ano:hover {
+  color: #fff;
+}
+
+.um .ano::after {
+  content: "|";
+  opacity: 1;
+  margin-left: 0.3rem;
+  display: inline-block;
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
 .um .saudacao {
   position: absolute;
   top: 4.5rem;
