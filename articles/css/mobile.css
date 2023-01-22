@@ -2,7 +2,7 @@
   .um .title {
     position: absolute;
     left: 50%;
-    top: 2rem;
+    top: 2.5rem;
     font-size: 1.6rem;
     font-weight: 500;
   }
@@ -11,11 +11,11 @@
     color: #fff;
     position: absolute;
     left: 50%;
-    top: 7rem;
+    top: 7.5rem;
     margin-right: -50%;
     transform: translate(-50%);
-    line-height: 1.9rem;
-    font-size: 0.7rem;
+    line-height: 2rem;
+    font-size: 0.8rem;
   }
 
   .um .totoro {
