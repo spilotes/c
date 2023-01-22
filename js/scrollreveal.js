@@ -2,6 +2,7 @@ ScrollReveal({ reset: true });
 
 ScrollReveal().reveal(".saudacao", {
   duration: 2000,
+  delay: 1000,
 });
 
 ScrollReveal().reveal(".title", {
