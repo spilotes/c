@@ -57,7 +57,6 @@ body {
 .um .ano::after {
   content: "|";
   opacity: 1;
-  margin-left: 0.3rem;
   display: inline-block;
   animation: blink 0.7s infinite;
 }
