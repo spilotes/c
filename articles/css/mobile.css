@@ -2,7 +2,7 @@
   .um .title {
     position: absolute;
     left: 50%;
-    top: 1rem;
+    top: 2rem;
     font-size: 1.6rem;
     font-weight: 500;
   }
@@ -11,10 +11,10 @@
     color: #fff;
     position: absolute;
     left: 50%;
-    top: 5rem;
+    top: 7rem;
     margin-right: -50%;
     transform: translate(-50%);
-    line-height: 1.7rem;
+    line-height: 1.9rem;
     font-size: 0.7rem;
   }
 
