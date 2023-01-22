@@ -1,4 +1,8 @@
 @media (max-width: 414px) {
+  .um .ano {
+    font-weight: 100;
+  }
+
   .um .saudacao {
     left: 12.9rem;
   }
