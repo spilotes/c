@@ -27,6 +27,11 @@
     left: 12.9rem;
   }
 
+  .um .andar-a-pe {
+    top: 64vh;
+    white-space: nowrap;
+  }
+
   .um .yoda {
     top: 33rem;
     left: 12.9rem;
