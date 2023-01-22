@@ -40,6 +40,17 @@ body {
   height: 100vh;
 }
 
+.um .back {
+  position: absolute;
+  font-size: 1.4rem;
+  top: 0.5rem;
+  left: 0.5rem;
+}
+
+.um .back a {
+  text-decoration: none;
+}
+
 .um .title {
   position: absolute;
   left: 50%;
