@@ -1,11 +1,16 @@
 * {
   margin: 0;
   padding: 0;
+  color: #fff;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
+  width: 100vw;
   height: 100vh;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .wrapper {
@@ -30,226 +35,195 @@ body {
   }
 }
 
-h1 {
+.um {
+  width: 100vw;
+  height: 100vh;
+}
+
+.um .ano {
   position: absolute;
-  top: 1rem;
-  left: 50%;
-  transform: translate(-50%);
   color: #c9d1d9;
-  font-family: "Nanum Pen Script", cursive;
-  font-size: 2.5rem;
-  letter-spacing: 0.5rem;
-}
-
-span {
-  position: absolute;
-  top: 3.8rem;
-  left: 50%;
-  transform: translate(-50%);
-  color: #c9d1d9;
-  font-family: "Roboto", sans-serif;
-}
-
-.logo1 {
-  position: absolute;
-  top: 14vh;
-  left: 47%;
-  transform: translate(-50%);
-}
-
-.logo {
-  width: 4.5rem;
-  background: transparent;
-  border: 3.5px solid #c9d1d9;
-  border-radius: 50%;
-  transition: all 0.3s ease-in-out;
-}
-
-.logo:hover {
-  transform: scale(1.05);
-}
-
-.lbv1 {
-  position: absolute;
-  top: 14vh;
-  left: 53%;
-  transform: translate(-50%);
-}
-
-.lbv {
-  width: 5rem;
-  transition: all 0.3s ease-in-out;
-}
-
-.lbv:hover {
-  transform: scale(1.05);
-}
-
-.saudacao {
-  position: absolute;
-  top: 29vh;
-  left: 50%;
-  transform: translate(-50%);
-  color: #c9d1d9;
-  font-family: "Roboto", sans-serif;
+  top: 0.5rem;
+  left: 0.5rem;
   font-size: 1.1rem;
+  white-space: nowrap;
+  transition: all 0.3s ease-in-out;
 }
 
-.container {
+.um .ano:hover {
+  color: #fff;
+}
+
+.um .ano::after {
+  content: "|";
+  opacity: 1;
+  display: inline-block;
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.um .seasons {
   position: absolute;
-  top: 8em;
+  color: #c9d1d9;
+  top: 0.5rem;
+  right: 0.5rem;
+  font-size: 1.1rem;
+  white-space: nowrap;
+}
+
+.um .saudacao {
+  position: absolute;
+  top: 4.5rem;
+  left: 50%;
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-right: -50%;
+  transform: translate(-50%);
+}
+
+.um .notification {
+  position: absolute;
+  top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   margin: auto;
-  width: 14rem;
-  height: 19rem;
-  border-radius: 0.35rem;
-  background: rgba(107, 114, 124, 0);
-  box-shadow: 0 0.1rem 2rem 0 #6b727c;
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
-  border: 1px solid #6b727c;
+}
+
+.um .title {
+  position: absolute;
+  font-size: 1.1rem;
+  font-weight: 100;
+  top: 8rem;
+  left: 34.1rem;
+}
+
+.um .ric {
+  position: absolute;
+  top: 9.8rem;
+  left: 34.2rem;
+  font-size: 1.1rem;
+}
+
+.um .p {
+  position: absolute;
+  font-size: 1.1rem;
+  font-weight: 100;
+  top: 9.8rem;
+  left: 38.2rem;
+}
+
+.um .article {
+  position: absolute;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 100;
+  letter-spacing: 0.05rem;
+  top: 30vh;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.um .article a {
+  text-decoration: none;
+}
+
+.um .article:hover {
+  text-decoration: underline;
+}
+
+.um .wrapper {
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+}
+
+.um .carta {
+  position: absolute;
+  width: 12rem;
+  top: 50%;
+  left: 50%;
+  cursor: pointer;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease-in-out;
+  filter: drop-shadow(0 0 2rem purple);
+}
+
+.um .carta:hover {
+  width: 12.5rem;
+  left: 49.9%;
+  filter: drop-shadow(0 0 2rem #ff00ff);
+}
+
+.um .andar-a-pe {
+  position: absolute;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 100;
+  letter-spacing: 0.05rem;
+  top: 67vh;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.um .andar-a-pe:hover {
+  text-decoration: underline;
+}
+
+.um .yoda {
+  position: absolute;
+  width: 15rem;
+  top: 30rem;
+  left: 60%;
+  transform: translate(-50%);
   transition: all 0.3s ease-in-out;
 }
 
-.container:hover {
-  box-shadow: 0 0.1rem 2rem 0 #c9d1d9;
+.um .yoda:hover {
+  filter: drop-shadow(0 0 1rem #00c91e);
 }
 
-.container h2 {
+.um .musica {
   position: absolute;
-  top: 1vh;
-  left: 50%;
-  transform: translate(-50%);
-  color: #c9d1d9;
-  font-family: "Roboto", sans-serif;
-  font-size: 1.4rem;
-}
-
-.container h4 {
-  position: absolute;
-  top: 7vh;
-  left: 50%;
-  transform: translate(-50%);
-  color: #c9d1d9;
-  font-family: "Roboto", sans-serif;
+  bottom: 5.5rem;
+  color: #fff;
+  left: 45%;
   font-size: 1rem;
-}
-
-.container h5 {
-  font-size: 1rem;
-  margin-bottom: 0.5rem;
-}
-
-.container .meses-ano1 {
-  position: absolute;
-  top: 13vh;
-  left: 0.5rem;
-  color: #c9d1d9;
-  font-family: "Roboto", sans-serif;
-}
-
-.container .meses-ano2 {
-  position: absolute;
-  top: 34vh;
-  left: 0.5rem;
-  color: #c9d1d9;
-  font-family: "Roboto", sans-serif;
-}
-
-.login {
-  position: absolute;
-  bottom: 8rem;
-  width: 100%;
-  left: 50%;
-  transform: translate(-50%);
-  color: #c9d1d9;
-  font-family: "Roboto", sans-serif;
-}
-
-.login .user {
-  position: absolute;
-  left: 44.5%;
+  font-weight: 200;
+  margin-right: -50%;
   transform: translate(-50%);
 }
 
-.login .senha {
+.um audio {
   position: absolute;
-  left: 56.5%;
+  bottom: 3rem;
+  width: 17rem;
+  height: 2rem;
+  left: 45%;
+  margin-right: -50%;
   transform: translate(-50%);
 }
 
-.login .ramal {
+.um .description {
   position: absolute;
-  top: 5.5rem;
-  left: 50%;
+  font-weight: 100;
+  bottom: 1.5rem;
+  left: 45%;
+  font-size: 0.95rem;
+  margin-right: -50%;
   transform: translate(-50%);
 }
 
-@media (max-width: 414px) {
-  body {
-    height: 100vh;
-  }
-
-  h1 {
-    left: 50%;
-    transform: translate(-50%);
-    white-space: nowrap;
-    letter-spacing: 0.3rem;
-  }
-
-  .logo1 {
-    left: 40%;
-    transform: translate(-50%);
-  }
-
-  .lbv1 {
-    left: 60%;
-    transform: translate(-50%);
-  }
-
-  .saudacao {
-    top: 27vh;
-    white-space: nowrap;
-  }
-
-  .container {
-    top: 7em;
-    width: 12rem;
-    height: 19rem;
-  }
-
-  .container h2 {
-    font-size: 1.3rem;
-  }
-
-  .container h4 {
-    top: 6vh;
-  }
-
-  .container .meses-ano1 {
-    top: 11vh;
-  }
-
-  .container .meses-ano2 {
-    top: 28vh;
-  }
-
-  .login {
-    width: 100%;
-    bottom: 5.5rem;
-  }
-
-  .login .user {
-    left: 30%;
-    transform: translate(-50%);
-  }
-
-  .login .senha {
-    white-space: nowrap;
-    position: absolute;
-    left: 70%;
-    transform: translate(-50%);
-  }
+.um .description:hover {
+  text-decoration: underline;
 }
