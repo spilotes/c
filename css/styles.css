@@ -122,6 +122,25 @@ body {
   left: 38.2rem;
 }
 
+.um .article {
+  position: absolute;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 100;
+  letter-spacing: 0.05rem;
+  top: 30vh;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.um .article a {
+  text-decoration: none;
+}
+
+.um .article:hover {
+  text-decoration: underline;
+}
+
 .um .wrapper {
   width: 200px;
   height: 200px;

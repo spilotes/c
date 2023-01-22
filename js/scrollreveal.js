@@ -31,6 +31,11 @@ ScrollReveal().reveal(".p", {
   delay: 1800,
 });
 
+ScrollReveal().reveal(".article", {
+  duration: 4000,
+  delay: 1500,
+});
+
 ScrollReveal().reveal(".carta", {
   duration: 3000,
 });
