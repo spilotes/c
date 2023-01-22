@@ -4,7 +4,7 @@
     left: 50%;
     top: 1rem;
     font-size: 1.6rem;
-    font-weight: 600;
+    font-weight: 500;
   }
 
   .um .articles {
@@ -14,8 +14,13 @@
     top: 4rem;
     margin-right: -50%;
     transform: translate(-50%);
-    line-height: 2rem;
-    font-size: 0.9rem;
+    line-height: 1.5rem;
+    font-size: 0.85rem;
+  }
+
+  .um .totoro {
+    width: 7.5rem;
+    bottom: 4rem;
   }
 
   .um .musica {
