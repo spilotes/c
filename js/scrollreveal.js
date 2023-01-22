@@ -1,5 +1,10 @@
 ScrollReveal({ reset: true });
 
+ScrollReveal().reveal("#seasons", {
+  duration: 2000,
+  delay: 2000,
+});
+
 ScrollReveal().reveal(".saudacao", {
   duration: 2000,
   delay: 1000,
