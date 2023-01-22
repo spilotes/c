@@ -106,10 +106,25 @@ body {
   filter: drop-shadow(0 0 2rem #ff00ff);
 }
 
+.um .andar-a-pe {
+  position: absolute;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 100;
+  letter-spacing: 0.05rem;
+  top: 67vh;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.um .andar-a-pe:hover {
+  text-decoration: underline;
+}
+
 .um .yoda {
   position: absolute;
   width: 15rem;
-  top: 28rem;
+  top: 30rem;
   left: 50%;
   transform: translate(-50%);
   transition: all 0.3s ease-in-out;
