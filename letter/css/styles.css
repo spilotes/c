@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.sliding-background {
+  background: url(../img/bg.jpg) repeat-x;
+  height: 100vh;
+  width: 6000px;
+  animation: slide 450s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+
+  100% {
+    transform: translate3d(-3840px, 0, 0);
+  }
+}
+
+.um {
+  width: 100vw;
+  height: 100vh;
+}
+
+.um .saudacao {
+  position: absolute;
+  top: 4.5rem;
+  left: 50%;
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-right: -50%;
+  transform: translate(-50%);
+}
+
+.um .notification {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.um .title {
+  position: absolute;
+  font-size: 1.1rem;
+  font-weight: 100;
+  top: 8rem;
+  left: 34.1rem;
+}
+
+.um .ric {
+  position: absolute;
+  top: 9.8rem;
+  left: 34.2rem;
+  font-size: 1.1rem;
+}
+
+.um .p {
+  position: absolute;
+  font-size: 1.1rem;
+  font-weight: 100;
+  top: 9.8rem;
+  left: 38.2rem;
+}
+
+.um .wrapper {
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+}
+
+.um .carta {
+  position: absolute;
+  width: 12rem;
+  top: 50%;
+  left: 50%;
+  cursor: pointer;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease-in-out;
+  filter: drop-shadow(0 0 2rem purple);
+}
+
+.um .carta:hover {
+  width: 12.5rem;
+  left: 49.9%;
+  filter: drop-shadow(0 0 2rem #ff00ff);
+}
+
+.um .yoda {
+  position: absolute;
+  width: 15rem;
+  top: 28rem;
+  left: 50%;
+  transform: translate(-50%);
+  transition: all 0.3s ease-in-out;
+}
+
+.um .yoda:hover {
+  filter: drop-shadow(0 0 1rem #00c91e);
+}
