@@ -36,7 +36,12 @@
   }
 
   .um .carta {
+    width: 11rem;
     left: 12.9rem;
+  }
+
+  .um .carta:hover {
+    width: 11.5rem;
   }
 
   .um .andar-a-pe {
