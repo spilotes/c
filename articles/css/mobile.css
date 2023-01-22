@@ -1,58 +1,21 @@
 @media (max-width: 414px) {
-  .um .ano {
-    font-weight: 300;
-  }
-
-  .um .seasons {
-    font-weight: 300;
-  }
-
-  .um .saudacao {
-    left: 12.9rem;
-  }
-
   .um .title {
-    font-size: 1.1rem;
-    font-weight: 200;
-    top: 8rem;
-    left: 4.8rem;
+    position: absolute;
+    left: 50%;
+    top: 1rem;
+    font-size: 1.6rem;
+    font-weight: 600;
   }
 
-  .um .ric {
-    top: 9.8rem;
-    left: 4.8rem;
-    font-size: 1.1rem;
-  }
-
-  .um .p {
-    font-size: 1.1rem;
-    font-weight: 200;
-    top: 9.8rem;
-    left: 8.8rem;
-  }
-
-  .um .article {
-    top: 29vh;
-  }
-
-  .um .carta {
-    width: 11rem;
-    left: 12.9rem;
-  }
-
-  .um .carta:hover {
-    width: 11.5rem;
-  }
-
-  .um .andar-a-pe {
-    top: 61vh;
-    white-space: nowrap;
-  }
-
-  .um .yoda {
-    width: 13rem;
-    top: 32.5rem;
-    left: 12.9rem;
+  .um .articles {
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 4rem;
+    margin-right: -50%;
+    transform: translate(-50%);
+    line-height: 2rem;
+    font-size: 0.9rem;
   }
 
   .um .musica {
