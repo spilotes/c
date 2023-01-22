@@ -30,4 +30,9 @@ ScrollReveal().reveal(".carta", {
   duration: 3000,
 });
 
+ScrollReveal().reveal(".andar-a-pe", {
+  duration: 4000,
+  delay: 1500,
+});
+
 window.navigator.vibrate(1000);
