@@ -36,8 +36,11 @@ ScrollReveal().reveal(".article", {
   delay: 1500,
 });
 
-ScrollReveal().reveal(".carta", {
-  duration: 3000,
+ScrollReveal().reveal(".ric", {
+  origin: "left",
+  distance: "2rem",
+  duration: 1500,
+  delay: 1800,
 });
 
 ScrollReveal().reveal(".andar-a-pe", {
