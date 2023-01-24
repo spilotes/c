@@ -36,14 +36,7 @@ ScrollReveal().reveal(".article", {
   delay: 1500,
 });
 
-ScrollReveal().reveal(".ric", {
-  origin: "left",
-  distance: "2rem",
-  duration: 1500,
-  delay: 1800,
-});
-
-ScrollReveal().reveal(".letter", {
+ScrollReveal().reveal(".carta", {
   origin: "left",
   distance: "2rem",
   duration: 1500,
