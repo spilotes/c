@@ -1,0 +1,52 @@
+@media (max-width: 414px) {
+  .um .title {
+    position: absolute;
+    left: 50%;
+    top: 2.5rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+
+  .um .articles {
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 7.5rem;
+    margin-right: -50%;
+    transform: translate(-50%);
+    line-height: 2.4rem;
+    font-size: 0.75rem;
+  }
+
+  .um .totoro {
+    width: 7.5rem;
+    bottom: 3.9rem;
+  }
+
+  .um .musica {
+    position: absolute;
+    bottom: 4.3rem;
+    color: #fff;
+    left: 50%;
+    font-size: 1rem;
+    font-weight: 200;
+    margin-right: -50%;
+    transform: translate(-50%);
+  }
+
+  .um audio {
+    bottom: 2rem;
+    height: 2rem;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%);
+  }
+
+  .um .description {
+    bottom: 0.5rem;
+    left: 50%;
+    font-size: 0.95rem;
+    margin-right: -50%;
+    transform: translate(-50%);
+  }
+}

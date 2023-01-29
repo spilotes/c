@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: #000000;
+  overflow-x: hidden;
+}
+
+.um {
+  width: 100vw;
+  height: 100vh;
+}
+
+.um .back {
+  position: absolute;
+  font-size: 1.4rem;
+  top: 0.5rem;
+  left: 0.5rem;
+}
+
+.um .back a {
+  text-decoration: none;
+}
+
+.um audio {
+  position: absolute;
+  top: 35rem;
+  width: 17rem;
+  height: 2rem;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+}
+
+.um .span1 {
+  position: absolute;
+  top: 37.4rem;
+  left: 50%;
+  font-size: 0.95rem;
+  margin-right: -50%;
+  transform: translate(-50%);
+}
+
+.patinho {
+  position: absolute;
+  width: 11rem;
+  top: 15rem;
+  left: 25rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.patinho:hover {
+  filter: drop-shadow(0 0 0.5rem gold);
+}
+
+.talk {
+  position: absolute;
+  width: 15.5rem;
+  top: 6rem;
+  left: 32.5rem;
+  transform: rotate(6deg);
+}
+
+.um .span {
+  position: absolute;
+  top: 8.3rem;
+  left: 36.4rem;
+  color: #000000;
+  font-size: 1.1rem;
+  font-weight: 900;
+  line-height: 1.25rem;
+}
+
+.um .content-coracao {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  cursor: pointer;
+  margin: 300px auto;
+  transition: all 0.5s ease-in-out;
+  filter: drop-shadow(0 0 2rem purple);
+  -webkit-animation: pulsa 1.5s linear 0s infinite;
+}
+
+.um .content-coracao:hover {
+  filter: drop-shadow(0 0 2rem #ff00ff);
+}
+
+@keyframes pulsa {
+  0% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(0.8);
+  }
+  85% {
+    transform: scale(0.9);
+  }
+  90% {
+    transform: scale(0.95);
+  }
+  97% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.um .square {
+  transform: rotate(45deg);
+  width: 50px;
+  height: 50px;
+  background: #e71940;
+  position: absolute;
+  top: 30px;
+}
+
+.um .circle:after,
+.circle:before {
+  content: "";
+  position: absolute;
+  width: 54px;
+  height: 55px;
+  border-radius: 50%;
+  background: #e71940;
+}
+.um .circle:after {
+  left: 5px;
+  top: 6px;
+}
+.um .circle:before {
+  right: 5px;
+  top: 6px;
+}
+
+.dois {
+  width: 100vw;
+  height: 440vh;
+}
+
+.dois .text {
+  position: absolute;
+  top: 43rem;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+}
+
+.dois .puck2 {
+  position: absolute;
+  width: 5.6rem;
+  top: 42.5rem;
+  left: 52rem;
+  filter: drop-shadow(0 0 0.6rem #8a2be2);
+}
+
+.dois p {
+  font-size: 1.3rem;
+  line-height: 1.7rem;
+}
+
+.dois .pikachu {
+  position: absolute;
+  width: 8rem;
+  top: 230rem;
+  left: 27rem;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.dois .pikachu:hover {
+  filter: drop-shadow(0 0 0.5rem #ffda45);
+}
+
+.dois .puck {
+  position: absolute;
+  width: 7rem;
+  top: 224rem;
+  left: 49rem;
+}
+
+.dois .start {
+  font-size: 1.8rem;
+  top: 236rem;
+  right: 2rem;
+  position: absolute;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.dois .start:hover {
+  transform: scale(1.03);
+  filter: drop-shadow(0.3rem 0 0.3rem #c9d1d9);
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 15px;
+  background: #6b727c;
+  transition: all 0.5s ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: purple;
+}

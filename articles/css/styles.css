@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #c9d1d9;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.sliding-background {
+  background: url(../img/bg.jpg) repeat-x;
+  height: 100vh;
+  width: 6000px;
+  animation: slide 450s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+
+  100% {
+    transform: translate3d(-3840px, 0, 0);
+  }
+}
+
+.um {
+  width: 100vw;
+  height: 100vh;
+}
+
+.um .back {
+  position: absolute;
+  font-size: 1.4rem;
+  top: 0.5rem;
+  left: 0.5rem;
+}
+
+.um .back a {
+  text-decoration: none;
+}
+
+.um .title {
+  position: absolute;
+  left: 50%;
+  top: 1.5rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-right: -50%;
+  transform: translate(-50%);
+  color: #c9d1d9;
+}
+
+.um .articles {
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 6rem;
+  margin-right: -50%;
+  transform: translate(-50%);
+  line-height: 2rem;
+  font-size: 1.1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.um .articles a {
+  text-decoration: none;
+}
+
+.um .one:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.um .two:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.um .tree:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.um .four:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.um .five:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.um .six:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.um .seven:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.um .eith:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.um .nine:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.um .ten:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.um .eleven:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.um .totoro {
+  position: absolute;
+  width: 8rem;
+  bottom: 4.4rem;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+  transition: all 0.3s ease-in-out;
+}
+
+.um .totoro:hover {
+  filter: drop-shadow(0 0 1rem purple);
+}
+
+.um .musica {
+  position: absolute;
+  bottom: 5rem;
+  color: #fff;
+  left: 50%;
+  font-size: 1rem;
+  font-weight: 200;
+  margin-right: -50%;
+  transform: translate(-50%);
+}
+
+.um audio {
+  position: absolute;
+  bottom: 2.5rem;
+  width: 17rem;
+  height: 2rem;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+}
+
+.um .description {
+  position: absolute;
+  font-weight: 100;
+  bottom: 1rem;
+  left: 50%;
+  font-size: 0.95rem;
+  margin-right: -50%;
+  transform: translate(-50%);
+}
+
+.um .description:hover {
+  text-decoration: underline;
+}
