@@ -31,18 +31,13 @@ ScrollReveal().reveal(".p", {
   delay: 1800,
 });
 
-ScrollReveal().reveal(".article", {
-  duration: 4000,
-  delay: 1500,
-});
-
 ScrollReveal().reveal(".carta", {
   duration: 3000,
 });
 
-ScrollReveal().reveal(".andar-a-pe", {
+ScrollReveal().reveal(".btn", {
   duration: 4000,
-  delay: 1500,
+  delay: 2000,
 });
 
 ScrollReveal().reveal(".musica", {
