@@ -34,6 +34,10 @@
     width: 8.5rem;
   }
 
+  .btn {
+    top: 55vh;
+  }
+
   .yoda {
     width: 9rem;
     bottom: 5.7rem;
