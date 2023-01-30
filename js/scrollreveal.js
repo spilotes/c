@@ -41,18 +41,24 @@ ScrollReveal().reveal(".btn", {
 });
 
 ScrollReveal().reveal(".musica", {
-  duration: 4000,
-  delay: 1500,
+  origin: "bottom",
+  distance: "2rem",
+  duration: 1500,
+  delay: 1800,
 });
 
 ScrollReveal().reveal(".description", {
-  duration: 4000,
-  delay: 1500,
+  origin: "bottom",
+  distance: "2rem",
+  duration: 1500,
+  delay: 1800,
 });
 
 ScrollReveal().reveal("audio", {
-  duration: 4000,
-  delay: 1500,
+  origin: "bottom",
+  distance: "2rem",
+  duration: 1500,
+  delay: 1800,
 });
 
 window.navigator.vibrate(1000);

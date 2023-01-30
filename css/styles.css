@@ -194,7 +194,7 @@ body {
   transform: translate(-50%);
   border: 0.1rem solid #c9d1d9;
   cursor: pointer;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
   font-size: 0.8rem;
 }
 
