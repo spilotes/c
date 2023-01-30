@@ -36,8 +36,8 @@ ScrollReveal().reveal(".carta", {
 });
 
 ScrollReveal().reveal(".btn", {
-  duration: 4000,
-  delay: 2000,
+  duration: 1500,
+  delay: 1800,
 });
 
 ScrollReveal().reveal(".musica", {
