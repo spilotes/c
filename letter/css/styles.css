@@ -46,6 +46,10 @@ body {
   transform: translate(-50%);
 }
 
+.um .span1:hover {
+  text-decoration: underline;
+}
+
 .patinho {
   position: absolute;
   width: 11rem;
