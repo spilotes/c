@@ -42,9 +42,11 @@ body {
 
 .um .back {
   position: absolute;
-  font-size: 1.4rem;
   top: 0.5rem;
-  left: 0.5rem;
+  left: 0.7rem;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }
 
 .um .back a {
