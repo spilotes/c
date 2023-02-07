@@ -104,7 +104,7 @@ body {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: transparent;
+  background-color: #121212;
   min-width: 8rem;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -123,7 +123,7 @@ body {
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #121212;
+  background-color: #242424;
 }
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
@@ -133,9 +133,10 @@ body {
 
 .saudacao {
   position: absolute;
-  top: 4.5rem;
+  top: 10vh;
   left: 50%;
-  font-size: 1.3rem;
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 1.7rem;
   font-weight: 400;
   margin-right: -50%;
   transform: translate(-50%);
@@ -182,6 +183,36 @@ body {
   width: 8.8rem;
   left: 49.9%;
   filter: drop-shadow(0 0 1rem #ff00ff);
+}
+
+.letters {
+  position: absolute;
+  top: 55vh;
+  left: 50%;
+  cursor: pointer;
+  margin-right: -50%;
+  transform: translate(-50%);
+  font-size: 1.1rem;
+  white-space: nowrap;
+  transition: all 0.2s ease-in-out;
+}
+
+.letters:hover {
+  text-decoration: underline;
+}
+
+.mes {
+  position: absolute;
+  top: 55vh;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+}
+
+.mes h4 {
+  font-family: "Nanum Pen Script", cursive;
+  font-weight: 200;
+  font-size: 1.6rem;
 }
 
 .btn {

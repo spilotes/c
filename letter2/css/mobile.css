@@ -1,0 +1,101 @@
+@media (max-width: 414px) {
+  .home {
+    left: 0.5rem;
+    font-size: 1.8rem;
+  }
+
+  .girassol {
+    width: 17.5rem;
+  }
+
+  .girassol:hover {
+    width: 17.8rem;
+    filter: drop-shadow(0 1.6rem 0.5rem #242424);
+  }
+
+  svg {
+    left: 70%;
+  }
+
+  .g1 {
+    top: 50vh;
+    left: 50%;
+  }
+
+  .g2 {
+    top: 53vh;
+    left: 15%;
+  }
+
+  .oi {
+    top: 56vh;
+  }
+
+  .click1 {
+    top: 74vh;
+    left: 32%;
+  }
+
+  .click2 {
+    top: 74vh;
+    left: 68%;
+  }
+
+  .musica {
+    bottom: 10vh;
+  }
+
+  audio {
+    bottom: 5.5vh;
+  }
+
+  .papper img {
+    width: 101vw;
+    height: 332vh;
+    margin-left: -1vw;
+  }
+
+  .name {
+    top: 120vh;
+    left: 32%;
+  }
+
+  .kiki {
+    width: 6rem;
+    top: 117vh;
+    left: 63%;
+  }
+
+  .text {
+    top: 133vh;
+    width: 385px;
+  }
+
+  .assign {
+    width: 385px;
+    top: 378vh;
+    white-space: nowrap;
+  }
+
+  .cravina {
+    top: 385vh;
+    left: 70%;
+  }
+
+  .toguepi {
+    top: 415vh;
+    left: 29%;
+    width: 6.5rem;
+  }
+
+  .pikachu {
+    top: 410vh;
+    left: 68%;
+    width: 12.5rem;
+  }
+
+  .up {
+    top: 424vh;
+    right: 1vh;
+  }
+}

@@ -22,10 +22,7 @@ ScrollReveal().reveal(".text", {
   duration: 3000,
 });
 
-ScrollReveal().reveal("#audio", {
-  duration: 3000,
-});
-
-ScrollReveal().reveal(".span1", {
-  duration: 3000,
+ScrollReveal().reveal(".controls", {
+  duration: 1500,
+  delay: 1800,
 });

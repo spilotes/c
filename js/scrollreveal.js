@@ -35,6 +35,11 @@ ScrollReveal().reveal(".carta", {
   duration: 3000,
 });
 
+ScrollReveal().reveal(".mes", {
+  duration: 1500,
+  delay: 1800,
+});
+
 ScrollReveal().reveal(".btn", {
   duration: 1500,
   delay: 1800,
