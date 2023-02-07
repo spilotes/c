@@ -124,7 +124,7 @@ body {
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
   background-color: #242424;
-  font-weight: 300;
+  font-weight: 200;
   color: #fff;
 }
 
