@@ -1,4 +1,8 @@
 @media (max-width: 414px) {
+  .bg {
+    object-fit: cover;
+  }
+
   .home {
     left: 0.5rem;
     font-size: 1.8rem;
@@ -6,5 +10,9 @@
 
   .title h1 {
     top: 5vh;
+  }
+
+  .inbox {
+    top: 12vh;
   }
 }
