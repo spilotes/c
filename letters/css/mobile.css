@@ -1,13 +1,4 @@
 @media (max-width: 414px) {
-  .bg {
-    margin-right: -1rem;
-    margin-bottom: -1rem;
-  }
-
-  .bg-letters {
-    object-fit: cover;
-  }
-
   .home {
     left: 0.5rem;
     font-size: 1.8rem;
