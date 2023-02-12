@@ -70,7 +70,7 @@ body {
 .um .title {
   position: absolute;
   left: 50%;
-  top: 6vh;
+  top: 8vh;
 
   font-weight: 500;
   margin-right: -50%;
@@ -87,7 +87,7 @@ body {
   color: #fff;
   position: absolute;
   left: 50%;
-  top: 6rem;
+  top: 23vh;
   margin-right: -50%;
   transform: translate(-50%);
   line-height: 2rem;
@@ -158,9 +158,7 @@ body {
   position: absolute;
   width: 8rem;
   bottom: 4.4rem;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%);
+  left: 6.5vw;
   transition: all 0.3s ease-in-out;
 }
 
@@ -181,22 +179,18 @@ body {
 
 .um audio {
   position: absolute;
-  bottom: 2.5rem;
+  bottom: 6.5vh;
+  left: 1vw;
   width: 17rem;
   height: 2rem;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%);
 }
 
 .um .description {
   position: absolute;
   font-weight: 100;
-  bottom: 1rem;
-  left: 50%;
+  bottom: 3vh;
+  left: 5vw;
   font-size: 0.95rem;
-  margin-right: -50%;
-  transform: translate(-50%);
 }
 
 .um .description:hover {
