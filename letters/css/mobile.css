@@ -19,34 +19,33 @@
   .container {
     top: 17vh;
     width: 90vw;
-    height: 65vh;
-    background: #000;
+    height: 60vh;
   }
 
   .container .desc-1 {
     top: 15vh;
-    left: 9.5vw;
+    left: 11.5vw;
   }
 
   .container .desc-2 {
     top: 15vh;
-    right: 9.5vw;
+    right: 11.5vw;
   }
 
   .container .empty1 {
-    top: 27vh;
+    top: 20vh;
   }
 
   .container .empty2 {
-    top: 27vh;
+    top: 20vh;
   }
 
   .container .empty3 {
-    top: 47vh;
+    top: 40vh;
   }
 
   .container .empty4 {
-    top: 47vh;
+    top: 40vh;
   }
 
   audio {
