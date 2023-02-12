@@ -21,12 +21,11 @@ body {
 .bg-letters {
   width: 100vw;
   height: 101vh;
-  filter: brightness(18%);
+  filter: brightness(15%);
 }
 
 .home {
   position: absolute;
-  width: 100%;
   top: 0.5rem;
   left: 0.7rem;
   font-size: 2rem;
@@ -62,24 +61,153 @@ body {
 
 .container {
   position: absolute;
-  top: 25vh;
+  top: 30vh;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%);
   width: 25vw;
-  height: 70vh;
-  background-color: antiquewhite;
+  height: 60vh;
+  overflow-y: visible;
+  overflow-x: visible;
+}
 
-  display: grid;
-  grid-template-columns: 2fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-  gap: 8px 8px;
-  grid-template-areas:
-    "."
-    "."
-    "."
-    "."
-    ".";
+.container .letter1 {
+  position: absolute;
+  top: 2vh;
+  left: 4vh;
+  width: 7.5rem;
+  cursor: pointer;
+  filter: drop-shadow(0 0 1rem purple);
+  transition: all 0.3s ease-in-out;
+}
+
+.container .letter1:hover {
+  transform: scale(1.02);
+  filter: drop-shadow(0 0 1rem #ff00ff);
+}
+
+.container .desc-1 {
+  position: absolute;
+  top: 16vh;
+  left: 3.5vw;
+  font-size: 0.9rem;
+  font-weight: 100;
+}
+
+.container .letter2 {
+  position: absolute;
+  top: 2vh;
+  right: 4vh;
+  width: 7.5rem;
+  cursor: pointer;
+  filter: drop-shadow(0 0 1rem purple);
+  transition: all 0.3s ease-in-out;
+}
+
+.container .letter2:hover {
+  transform: scale(1.02);
+  filter: drop-shadow(0 0 1rem #ff00ff);
+}
+
+.container .desc-2 {
+  position: absolute;
+  top: 16vh;
+  right: 3.5vw;
+  font-size: 0.9rem;
+  font-weight: 100;
+}
+
+.container span {
+  position: absolute;
+  color: #c9d1d9;
+  font-weight: 100;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.container .empty1 {
+  position: absolute;
+  top: 10vw;
+  left: 4vh;
+  width: 7.5rem;
+  height: 5.2rem;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.01);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid #c9d1d9;
+  filter: drop-shadow(0 0 1rem purple);
+  transition: all 0.3s ease-in-out;
+}
+
+.container .empty1:hover {
+  transform: scale(1.02);
+  filter: drop-shadow(0 0 1rem #ff00ff);
+}
+
+.container .empty2 {
+  position: absolute;
+  top: 10vw;
+  right: 4vh;
+  width: 7.5rem;
+  height: 5.2rem;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.01);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid #c9d1d9;
+  filter: drop-shadow(0 0 1rem purple);
+  transition: all 0.3s ease-in-out;
+}
+
+.container .empty2:hover {
+  transform: scale(1.02);
+  filter: drop-shadow(0 0 1rem #ff00ff);
+}
+
+.container .empty3 {
+  position: absolute;
+  top: 19.2vw;
+  left: 4vh;
+  width: 7.5rem;
+  height: 5.2rem;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.01);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid #c9d1d9;
+  filter: drop-shadow(0 0 1rem purple);
+  transition: all 0.3s ease-in-out;
+}
+
+.container .empty3:hover {
+  transform: scale(1.02);
+  filter: drop-shadow(0 0 1rem #ff00ff);
+}
+
+.container .empty4 {
+  position: absolute;
+  top: 19.2vw;
+  right: 4vh;
+  width: 7.5rem;
+  height: 5.2rem;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.01);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid #c9d1d9;
+  filter: drop-shadow(0 0 1rem purple);
+  transition: all 0.3s ease-in-out;
+}
+
+.container .empty4:hover {
+  transform: scale(1.02);
+  filter: drop-shadow(0 0 1rem #ff00ff);
 }
 
 audio {
@@ -94,7 +222,7 @@ audio {
   position: absolute;
   font-weight: 100;
   bottom: 3vh;
-  left: 6rem;
+  left: 12vh;
   font-size: 0.95rem;
 }
 
