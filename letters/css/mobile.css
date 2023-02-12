@@ -24,28 +24,28 @@
 
   .container .desc-1 {
     top: 15vh;
-    left: 11.5vw;
+    left: 13vw;
   }
 
   .container .desc-2 {
     top: 15vh;
-    right: 11.5vw;
+    right: 13vw;
   }
 
   .container .empty1 {
-    top: 20vh;
+    top: 19vh;
   }
 
   .container .empty2 {
-    top: 20vh;
+    top: 19vh;
   }
 
   .container .empty3 {
-    top: 40vh;
+    top: 37vh;
   }
 
   .container .empty4 {
-    top: 40vh;
+    top: 37vh;
   }
 
   audio {
