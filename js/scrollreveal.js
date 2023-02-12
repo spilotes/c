@@ -65,5 +65,3 @@ ScrollReveal().reveal("audio", {
   duration: 1500,
   delay: 1800,
 });
-
-window.navigator.vibrate(1000);

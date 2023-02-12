@@ -124,8 +124,6 @@ body {
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
   background-color: #242424;
-  font-weight: 200;
-  color: #fff;
 }
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
