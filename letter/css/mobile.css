@@ -21,13 +21,15 @@
 
   .um .talk {
     top: 11vh;
-    right: 10vw;
+    right: 2vw;
+    width: 13.5rem;
   }
 
   .um .span {
     top: 13.5vh;
-    right: 10.7vh;
+    right: 5.7vh;
     color: black;
+    font-size: 1rem;
   }
 
   .um .content-coracao {
