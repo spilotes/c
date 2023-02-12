@@ -57,11 +57,16 @@
   }
 
   .dois .pikachu {
+    top: 410vh;
+    left: 15vw;
   }
 
   .dois .puck {
+    top: 400vh;
+    left: 65vw;
   }
 
   .dois .start {
+    top: 465vh;
   }
 }
