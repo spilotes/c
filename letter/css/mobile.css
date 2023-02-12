@@ -5,15 +5,23 @@
   }
 
   .um audio {
+    top: 78vh;
+  }
+
+  .um .desc {
+    top: 82vh;
   }
 
   .um .span1 {
   }
 
   .um .patinho {
+    top: 28vh;
   }
 
   .um .talk {
+    top: 11vh;
+    right: 40vw;
   }
 
   .um .span {
@@ -21,6 +29,7 @@
   }
 
   .um .content-coracao {
+    margin: 65vh auto;
   }
 
   .dois {
