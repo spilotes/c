@@ -16,6 +16,12 @@
     top: 10vh;
   }
 
+  .container {
+    top: 20vh;
+    width: 95vw;
+    height: 80vw;
+  }
+
   audio {
     left: 50%;
     margin-right: -50%;
