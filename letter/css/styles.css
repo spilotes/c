@@ -86,15 +86,15 @@ body {
 
 .talk {
   position: absolute;
-  width: 15.5rem;
-  top: 11vh;
-  right: 62vh;
+  width: 12rem;
+  top: 10vh;
+  right: 67vh;
   transform: rotate(6deg);
 }
 
 .um .span {
   position: absolute;
-  top: 16.5vh;
+  top: 15.8vh;
   right: 70.7vh;
   color: #000000;
   font-size: 1.1rem;
