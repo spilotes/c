@@ -5,11 +5,11 @@
   }
 
   .um audio {
-    top: 78vh;
+    top: 83vh;
   }
 
   .um .desc {
-    top: 82vh;
+    top: 87.2vh;
   }
 
   .um .span1 {
@@ -21,15 +21,17 @@
 
   .um .talk {
     top: 11vh;
-    right: 40vw;
+    right: 10vw;
   }
 
   .um .span {
+    top: 13.5vh;
+    right: 10.7vh;
     color: black;
   }
 
   .um .content-coracao {
-    margin: 65vh auto;
+    margin: 63vh auto;
   }
 
   .dois {
