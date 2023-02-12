@@ -15,4 +15,16 @@
   .inbox {
     top: 10vh;
   }
+
+  audio {
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%);
+  }
+
+  .description {
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%);
+  }
 }
