@@ -37,7 +37,7 @@
   }
 
   .dois {
-    height: 305vh;
+    height: 347vh;
   }
 
   .dois .puck2 {
@@ -62,11 +62,11 @@
   }
 
   .dois .puck {
-    top: 315vh;
+    top: 318vh;
     left: 70vw;
   }
 
   .dois .start {
-    top: 345vh;
+    top: 343vh;
   }
 }
