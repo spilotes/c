@@ -184,8 +184,8 @@ body {
 .dois .puck2 {
   position: absolute;
   width: 5rem;
-  top: 13vh;
-  left: 39vw;
+  top: 18vh;
+  left: 38vw;
   filter: drop-shadow(0 0 0.6rem #8a2be2);
 }
 
@@ -198,7 +198,7 @@ body {
   position: absolute;
   width: 8rem;
   top: 474vh;
-  left: 76vh;
+  left: 36vw;
   cursor: pointer;
   transition: all 0.5s ease-in-out;
 }

@@ -29,18 +29,19 @@
   }
 
   .dois .puck2 {
-    top: 20vh;
+    top: 19.5vh;
+    left: 39vw;
   }
 
   .dois .pikachu {
     top: 195rem;
-    left: 65vh;
+    left: 37vw;
   }
 
   .dois .puck {
     width: 5rem;
     top: 390vh;
-    left: 108vh;
+    left: 60vw;
   }
 
   .dois .start {
