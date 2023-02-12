@@ -1,0 +1,62 @@
+@media (max-width: 414px) {
+  .bg-letters {
+    object-fit: cover;
+  }
+
+  .home {
+    left: 0.5rem;
+    font-size: 1.8rem;
+  }
+
+  .title h1 {
+    top: 5vh;
+  }
+
+  .inbox {
+    top: 10vh;
+  }
+
+  .container {
+    top: 20vh;
+    width: 90vw;
+    height: 60vh;
+  }
+
+  .container .desc-1 {
+    top: 13.5vh;
+    left: 13vw;
+  }
+
+  .container .desc-2 {
+    top: 13.5vh;
+    right: 13vw;
+  }
+
+  .container .empty1 {
+    top: 19vh;
+  }
+
+  .container .empty2 {
+    top: 19vh;
+  }
+
+  .container .empty3 {
+    top: 36vh;
+  }
+
+  .container .empty4 {
+    top: 36vh;
+  }
+
+  audio {
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%);
+  }
+
+  .description {
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%);
+  }
+}

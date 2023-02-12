@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #c9d1d9;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.bg {
+  width: 100vw;
+  height: 100vh;
+}
+
+.bg-letters {
+  width: 100vw;
+  height: 101vh;
+  filter: brightness(15%);
+}
+
+.home {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.7rem;
+  font-size: 2rem;
+  cursor: pointer;
+  filter: drop-shadow(0 0.3rem 0.3rem #000);
+  transition: all 0.2s ease-in-out;
+}
+
+.home a {
+  text-decoration: none;
+}
+
+.title h1 {
+  position: absolute;
+  top: 8vh;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+  font-weight: 500;
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 2.3rem;
+}
+
+.inbox {
+  position: absolute;
+  top: 15vh;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+  font-size: 0.9rem;
+  text-decoration: underline;
+}
+
+.container {
+  position: absolute;
+  top: 30vh;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+  width: 25vw;
+  height: 60vh;
+  overflow-y: visible;
+  overflow-x: visible;
+}
+
+.container .letter1 {
+  position: absolute;
+  top: 2vh;
+  left: 4vh;
+  width: 7.5rem;
+  cursor: pointer;
+  filter: drop-shadow(0 0 1rem purple);
+  transition: all 0.3s ease-in-out;
+}
+
+.container .letter1:hover {
+  transform: scale(1.02);
+  filter: drop-shadow(0 0 1rem #ff00ff);
+}
+
+.container .desc-1 {
+  position: absolute;
+  top: 16vh;
+  left: 3.5vw;
+  font-size: 0.9rem;
+  font-weight: 100;
+}
+
+.container .letter2 {
+  position: absolute;
+  top: 2vh;
+  right: 4vh;
+  width: 7.5rem;
+  cursor: pointer;
+  filter: drop-shadow(0 0 1rem purple);
+  transition: all 0.3s ease-in-out;
+}
+
+.container .letter2:hover {
+  transform: scale(1.02);
+  filter: drop-shadow(0 0 1rem #ff00ff);
+}
+
+.container .desc-2 {
+  position: absolute;
+  top: 16vh;
+  right: 3.5vw;
+  font-size: 0.9rem;
+  font-weight: 100;
+}
+
+.container span {
+  position: absolute;
+  color: #c9d1d9;
+  font-weight: 100;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.container .empty1 {
+  position: absolute;
+  top: 10vw;
+  left: 4vh;
+  width: 7.5rem;
+  height: 5.2rem;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.01);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid #c9d1d9;
+  filter: drop-shadow(0 0 1rem purple);
+  transition: all 0.3s ease-in-out;
+}
+
+.container .empty1:hover {
+  transform: scale(1.02);
+  filter: drop-shadow(0 0 1rem #ff00ff);
+}
+
+.container .empty2 {
+  position: absolute;
+  top: 10vw;
+  right: 4vh;
+  width: 7.5rem;
+  height: 5.2rem;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.01);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid #c9d1d9;
+  filter: drop-shadow(0 0 1rem purple);
+  transition: all 0.3s ease-in-out;
+}
+
+.container .empty2:hover {
+  transform: scale(1.02);
+  filter: drop-shadow(0 0 1rem #ff00ff);
+}
+
+.container .empty3 {
+  position: absolute;
+  top: 19.2vw;
+  left: 4vh;
+  width: 7.5rem;
+  height: 5.2rem;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.01);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid #c9d1d9;
+  filter: drop-shadow(0 0 1rem purple);
+  transition: all 0.3s ease-in-out;
+}
+
+.container .empty3:hover {
+  transform: scale(1.02);
+  filter: drop-shadow(0 0 1rem #ff00ff);
+}
+
+.container .empty4 {
+  position: absolute;
+  top: 19.2vw;
+  right: 4vh;
+  width: 7.5rem;
+  height: 5.2rem;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.01);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid #c9d1d9;
+  filter: drop-shadow(0 0 1rem purple);
+  transition: all 0.3s ease-in-out;
+}
+
+.container .empty4:hover {
+  transform: scale(1.02);
+  filter: drop-shadow(0 0 1rem #ff00ff);
+}
+
+audio {
+  position: absolute;
+  bottom: 6.5vh;
+  left: 0.5rem;
+  width: 17rem;
+  height: 2rem;
+}
+
+.description {
+  position: absolute;
+  font-weight: 100;
+  bottom: 3vh;
+  left: 12vh;
+  font-size: 0.95rem;
+}
+
+.description:hover {
+  text-decoration: underline;
+}
