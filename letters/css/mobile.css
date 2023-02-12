@@ -19,8 +19,24 @@
   .container {
     top: 17vh;
     width: 90vw;
-    height: 80vh;
+    height: 70vh;
     background: #000;
+  }
+
+  .container .empty1 {
+    top: 37vh;
+  }
+
+  .container .empty2 {
+    top: 37vh;
+  }
+
+  .container .empty3 {
+    top: 57vh;
+  }
+
+  .container .empty4 {
+    top: 57vh;
   }
 
   audio {
