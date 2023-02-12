@@ -53,10 +53,24 @@ body {
   text-decoration: none;
 }
 
+.um .inbox {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  font-size: 1.1rem;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.um .inbox:hover {
+  text-decoration: underline;
+}
+
 .um .title {
   position: absolute;
   left: 50%;
-  top: 1.5rem;
+  top: 6vh;
 
   font-weight: 500;
   margin-right: -50%;
