@@ -7,7 +7,7 @@
   .um .title {
     position: absolute;
     left: 50%;
-    top: 2.5rem;
+    top: 6vh;
     font-size: 1.6rem;
     font-weight: 500;
   }
@@ -26,6 +26,9 @@
   .um .totoro {
     width: 7.5rem;
     bottom: 3.9rem;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%);
   }
 
   .um .musica {
