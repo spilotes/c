@@ -48,7 +48,7 @@ body {
   transition: all 0.2s ease-in-out;
 }
 
-.letters {
+.inbox {
   position: absolute;
   color: #121212;
   top: 0.5rem;
@@ -59,7 +59,7 @@ body {
   transition: all 0.2s ease-in-out;
 }
 
-.letters:hover {
+.inbox:hover {
   text-decoration: underline;
 }
 
