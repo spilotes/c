@@ -38,6 +38,20 @@ body {
   text-decoration: none;
 }
 
+.bonus {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  font-size: 1.1rem;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.bonus:hover {
+  text-decoration: underline;
+}
+
 .title h1 {
   position: absolute;
   top: 8vh;
