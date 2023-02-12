@@ -1,6 +1,6 @@
 ScrollReveal({ reset: true });
 
-ScrollReveal().reveal(".musica", {
+ScrollReveal().reveal("#audio", {
   origin: "bottom",
   distance: "2rem",
   duration: 1500,
