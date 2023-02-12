@@ -1,0 +1,25 @@
+@media screen and (min-width: 1400px) {
+  .papper img {
+    height: 345vh;
+  }
+
+  .assign {
+    top: 386vh;
+  }
+
+  .cravina {
+    top: 392vh;
+  }
+
+  .toguepi {
+    top: 425vh;
+  }
+
+  .pikachu {
+    top: 421vh;
+  }
+
+  .up {
+    top: 437vh;
+  }
+}
