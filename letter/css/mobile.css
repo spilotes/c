@@ -20,14 +20,14 @@
   }
 
   .um .talk {
-    top: 11vh;
-    right: 2vw;
+    top: 9vh;
+    right: -1vw;
     width: 13.5rem;
   }
 
   .um .span {
-    top: 13.5vh;
-    right: 5.7vh;
+    top: 16.5vh;
+    right: 3.7vh;
     color: black;
     font-size: 1rem;
   }
