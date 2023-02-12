@@ -11,6 +11,24 @@ body {
   overflow-x: hidden;
 }
 
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 15px;
+  background: #6b727c;
+  transition: all 300ms ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #c9d1d9;
+}
+
 .um {
   width: 100vw;
   height: 100vh;
@@ -220,22 +238,4 @@ body {
   font-size: 1.5rem;
   right: 1rem;
   cursor: pointer;
-}
-
-::-webkit-scrollbar {
-  width: 0.5rem;
-}
-
-::-webkit-scrollbar-track {
-  background: #000000;
-}
-
-::-webkit-scrollbar-thumb {
-  border-radius: 15px;
-  background: #6b727c;
-  transition: all 0.5s ease-in-out;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: purple;
 }
