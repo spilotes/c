@@ -13,7 +13,7 @@ body {
     linear,
     right top,
     right bottom,
-    from(#121212),
+    from(#242424),
     to(#000)
   );
   overflow-x: hidden;
