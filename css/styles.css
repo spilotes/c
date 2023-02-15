@@ -22,7 +22,7 @@ body {
   background: url(../img/bg.jpg) repeat-x;
   height: 100vh;
   width: 6000px;
-  animation: slide 450s linear infinite;
+  animation: slide 850s linear infinite;
 }
 
 @keyframes slide {
