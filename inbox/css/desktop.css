@@ -1,9 +1,11 @@
 @media screen and (min-width: 1400px) {
   .container .desc-1 {
     top: 13vh;
+    left: 4vw;
   }
 
   .container .desc-2 {
     top: 13vh;
+    right: 7vh;
   }
 }
