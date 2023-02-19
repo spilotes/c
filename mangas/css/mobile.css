@@ -5,17 +5,22 @@
     left: 8vw;
   }
 
+  .mangas .desc-b45 {
+    top: 43vh;
+    left: 10vw;
+  }
+
   .mangas .kimi-no-na-wa {
     width: 8rem;
     height: 12rem;
     top: 21vh;
-    right: 8vh;
+    left: 28vh;
   }
 
   .mangas .n-d34 {
     width: 8rem;
     height: 12rem;
-    top: 41vh;
+    top: 48vh;
     left: 8vw;
   }
 }
