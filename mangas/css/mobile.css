@@ -2,25 +2,38 @@
   .mangas .b45 {
     width: 8rem;
     top: 21vh;
-    left: 8vw;
+    left: 10vw;
   }
 
   .mangas .desc-b45 {
-    top: 43vh;
-    left: 10vw;
+    top: 46vh;
+    left: 12vw;
+    font-size: 0.9rem;
   }
 
   .mangas .kimi-no-na-wa {
     width: 8rem;
     height: 12rem;
     top: 21vh;
-    left: 28vh;
+    left: 29vh;
   }
 
   .mangas .n-d34 {
     width: 8rem;
     height: 12rem;
-    top: 48vh;
-    left: 8vw;
+    top: 52vh;
+    left: 10vw;
+  }
+
+  audio {
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%);
+  }
+
+  .description {
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%);
   }
 }
