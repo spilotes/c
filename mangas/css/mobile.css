@@ -1,4 +1,8 @@
 @media (max-width: 414px) {
+  body {
+    background: url(../img/bg-mobile.jpg);
+  }
+
   .mangas .b45 {
     width: 8rem;
     top: 20vh;

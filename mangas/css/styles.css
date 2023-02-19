@@ -9,7 +9,15 @@
 body {
   width: 100vw;
   height: 100vh;
-  background: #121212;
+  background: url(../img/bg-desk.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-size: 100% 100%;
+  backdrop-filter: brightness(12%);
   overflow-y: hidden;
   overflow-x: hidden;
 }
