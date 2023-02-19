@@ -2,12 +2,12 @@
   .mangas .b45 {
     width: 8rem;
     top: 20vh;
-    left: 10vw;
+    left: 11vw;
   }
 
   .mangas .desc-b45 {
-    top: 44.5vh;
-    left: 14vw;
+    top: 44vh;
+    left: 16vw;
     font-size: 0.9rem;
   }
 
@@ -20,8 +20,8 @@
 
   .mangas .desc-kimi-no-na-wa {
     position: absolute;
-    top: 44.5vh;
-    left: 33vw;
+    top: 44vh;
+    left: 53vw;
     font-size: 0.9rem;
   }
 
@@ -29,7 +29,13 @@
     width: 8rem;
     height: 12rem;
     top: 52vh;
-    left: 10vw;
+    left: 11vw;
+  }
+
+  .mangas .desc-n-d34 {
+    top: 85vh;
+    left: 13vw;
+    font-size: 0.9rem;
   }
 
   audio {
