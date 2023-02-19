@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #c9d1d9;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: #000;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.home {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.7rem;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.home a {
+  text-decoration: none;
+}
+
+.inbox {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  font-size: 1.1rem;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.inbox:hover {
+  text-decoration: underline;
+}
+
+.title {
+  position: absolute;
+  left: 50%;
+  top: 8vh;
+  font-weight: 500;
+  margin-right: -50%;
+  transform: translate(-50%);
+  color: #c9d1d9;
+}
+
+.title p {
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 2.3rem;
+}
+
+.mangas .b45 {
+  position: absolute;
+  width: 10rem;
+  top: 25vh;
+  left: 30vw;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.mangas .b45:hover {
+  transform: scale(1.02);
+}
+
+.mangas .desc-b45 {
+  position: absolute;
+  top: 62vh;
+  left: 33.1vw;
+  font-weight: 100;
+  font-size: 0.95rem;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.mangas .desc-b45:hover {
+  text-decoration: underline;
+}
+
+.mangas .kimi-no-na-wa {
+  position: absolute;
+  width: 10rem;
+  height: 14.95rem;
+  top: 25vh;
+  left: 91.8vh;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.mangas .kimi-no-na-wa:hover {
+  transform: scale(1.02);
+}
+
+.mangas .desc-kimi-no-na-wa {
+  position: absolute;
+  top: 62vh;
+  left: 46.5vw;
+  font-weight: 100;
+  font-size: 0.95rem;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.mangas .desc-kimi-no-na-wa:hover {
+  text-decoration: underline;
+}
+
+.mangas .n-d34 {
+  position: absolute;
+  width: 10rem;
+  height: 14.95rem;
+  top: 25vh;
+  right: 30vw;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.mangas .n-d34:hover {
+  transform: scale(1.02);
+}
+
+.mangas .desc-n-d34 {
+  position: absolute;
+  top: 62vh;
+  left: 59.3vw;
+  font-weight: 100;
+  font-size: 0.95rem;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.mangas .desc-n-d34:hover {
+  text-decoration: underline;
+}
+
+audio {
+  position: absolute;
+  bottom: 6.5vh;
+  left: 1vw;
+  width: 17rem;
+  height: 2rem;
+}
+
+.description {
+  position: absolute;
+  font-weight: 100;
+  bottom: 3vh;
+  left: 5vw;
+  font-size: 0.95rem;
+}

@@ -1,0 +1,19 @@
+@media screen and (min-width: 1400px) {
+  .mangas .kimi-no-na-wa {
+    left: 81.3vh;
+  }
+
+  .mangas .desc-b45 {
+    top: 56vh;
+  }
+
+  .mangas .desc-kimi-no-na-wa {
+    top: 56vh;
+    left: 47vw;
+  }
+
+  .mangas .desc-n-d34 {
+    top: 56vh;
+    left: 59.9vw;
+  }
+}
