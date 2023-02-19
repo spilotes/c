@@ -1,6 +1,7 @@
 @media (max-width: 414px) {
   body {
     background: url(../img/bg-mobile.jpg);
+    background-size: 50% 50%;
     backdrop-filter: brightness(15%);
   }
 
