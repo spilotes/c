@@ -1,2 +1,7 @@
 @media (max-width: 414px) {
+  .mangas .b45 {
+    width: 8rem;
+    top: 21vh;
+    left: 5vw;
+  }
 }
