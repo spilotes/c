@@ -9,7 +9,7 @@
 body {
   width: 100vw;
   height: 100vh;
-  background: #000;
+  background: #121212;
   overflow-y: hidden;
   overflow-x: hidden;
 }
@@ -154,6 +154,6 @@ audio {
   position: absolute;
   font-weight: 100;
   bottom: 3vh;
-  left: 5vw;
+  left: 4.3vw;
   font-size: 0.95rem;
 }
