@@ -1,21 +1,28 @@
 @media (max-width: 414px) {
   .mangas .b45 {
     width: 8rem;
-    top: 21vh;
+    top: 20vh;
     left: 10vw;
   }
 
   .mangas .desc-b45 {
-    top: 46vh;
-    left: 12vw;
+    top: 44.5vh;
+    left: 14vw;
     font-size: 0.9rem;
   }
 
   .mangas .kimi-no-na-wa {
     width: 8rem;
     height: 12rem;
-    top: 21vh;
+    top: 20vh;
     left: 29vh;
+  }
+
+  .mangas .desc-kimi-no-na-wa {
+    position: absolute;
+    top: 44.5vh;
+    left: 33vw;
+    font-size: 0.9rem;
   }
 
   .mangas .n-d34 {
