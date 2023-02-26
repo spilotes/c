@@ -17,16 +17,17 @@
   }
 
   .um .talk {
-    top: 13.2vh;
-    right: 2vw;
-    width: 10rem;
+    top: 15.2vh;
+    right: 6vw;
+    width: 8.5rem;
   }
 
   .um .span {
-    top: 16.6vh;
-    right: 3vh;
+    top: 18.3vh;
+    right: 5vh;
     color: black;
-    font-size: 0.95rem;
+    font-size: 0.8rem;
+    line-height: 1rem;
   }
 
   .um .content-coracao {
