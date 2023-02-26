@@ -112,20 +112,20 @@ body {
 
 .talk {
   position: absolute;
-  width: 12rem;
+  width: 10rem;
   top: 10vh;
-  right: 67vh;
+  right: 71vh;
   transform: rotate(6deg);
 }
 
 .um .span {
   position: absolute;
-  top: 15.8vh;
-  right: 70.7vh;
+  top: 14.8vh;
+  right: 73.5vh;
   color: #000000;
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   font-weight: 900;
-  line-height: 1.25rem;
+  line-height: 1.2rem;
 }
 
 .um .content-coracao {
