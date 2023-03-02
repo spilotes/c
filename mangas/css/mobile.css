@@ -5,6 +5,10 @@
     backdrop-filter: brightness(15%);
   }
 
+.title p {
+  font-size: 2rem;
+}
+
   .mangas .b45 {
     width: 8rem;
     top: 19vh;
