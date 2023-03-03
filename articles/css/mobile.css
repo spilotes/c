@@ -12,6 +12,10 @@
     font-weight: 500;
   }
 
+.um .title p {
+  font-size: 2rem;
+}
+
   .um .articles {
     color: #fff;
     position: absolute;
