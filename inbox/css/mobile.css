@@ -8,13 +8,16 @@
     font-size: 1.8rem;
   }
 
+  .bonus {
+    top: 0.7rem;
+  }
+
   .title h1 {
     top: 6vh;
-font-size: 2rem;
   }
 
   .inbox {
-    top: 11vh;
+    top: 10.5vh;
   }
 
   .container {
