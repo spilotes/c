@@ -236,7 +236,6 @@ body {
 .btn:hover {
   border: none;
   background: #3498db;
-  border-radius: 0.1rem;
   color: #000;
   font-weight: 500;
 }
