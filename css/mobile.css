@@ -35,11 +35,12 @@
   }
 
   .mes {
-    top: 53.5vh;
+    top: 53vh;
   }
 
   .btn {
     top: 58vh;
+    border-radius: 0.25rem;
   }
 
   .yoda {
