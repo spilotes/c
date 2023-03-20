@@ -17,17 +17,17 @@
   }
 
   .saudacao {
-    top: 16vh;
+    top: 15vh;
     left: 12.9rem;
   }
 
   .notification {
-    top: 21vh;
+    top: 20vh;
   }
 
   .carta {
     width: 8rem;
-    top: 36vh;
+    top: 35vh;
   }
 
   .carta:hover {
