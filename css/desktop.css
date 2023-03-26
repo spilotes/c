@@ -1,8 +1,10 @@
 @media screen and (min-width: 1400px) {
   .dropbtn {
     top: -1.4vh;
+    margin: -96vh 0vh 0 1.5vh;
   }
   .dropdown-content {
     top: -93.75vh;
+    margin-left: 1.5vh;
   }
 }
