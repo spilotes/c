@@ -5,6 +5,11 @@ ScrollReveal().reveal(".seasons", {
   delay: 3000,
 });
 
+ScrollReveal().reveal("#temperatura", {
+  duration: 4000,
+  delay: 3000,
+});
+
 ScrollReveal().reveal(".saudacao", {
   duration: 2000,
   delay: 1000,

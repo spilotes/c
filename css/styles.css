@@ -75,6 +75,15 @@ body {
   white-space: nowrap;
 }
 
+#temperatura {
+  position: absolute;
+  color: #c9d1d9;
+  top: 1.8rem;
+  right: 0.8rem;
+  font-size: 1.1rem;
+  white-space: nowrap;
+}
+
 /* Dropdown Button */
 .dropbtn {
   background-color: #3498db;
