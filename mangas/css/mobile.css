@@ -50,14 +50,16 @@
 
   .mangas .swknu {
     width: 8rem;
-    top: 19vh;
+    height: 12rem;
+    top: 51vh;
     left: 29vh;
   }
 
   .mangas .desc-swknu {
     top: 75vh;
-    left: 62vw;
+    left: 52vw;
     font-size: 0.9rem;
+    white-space: nowrap;
   }
 
   audio {
