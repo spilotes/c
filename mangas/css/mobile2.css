@@ -1,0 +1,54 @@
+@media (max-width: 980px) {
+  body {
+    height: 160vh;
+  }
+
+  .title {
+    position: absolute;
+    left: 50%;
+    top: 12vh;
+  }
+
+  .mangas .b45 {
+    width: 7rem;
+    top: 28vh;
+    left: 25vw;
+  }
+
+  .mangas .desc-b45 {
+    top: 73vh;
+    left: 27.8vw;
+    font-size: 0.85rem;
+  }
+
+  .mangas .kimi-no-na-wa {
+    width: 7rem;
+    height: 10.5rem;
+    top: 28vh;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%);
+  }
+
+  .mangas .desc-kimi-no-na-wa {
+    top: 73vh;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%);
+    font-size: 0.85rem;
+  }
+
+  .mangas .n-d34 {
+    width: 7rem;
+    height: 10.5rem;
+    top: 28vh;
+    right: 25vw;
+  }
+
+  .mangas .desc-n-d34 {
+    top: 73vh;
+    right: 23vw;
+    font-size: 0.85rem;
+    white-space: nowrap;
+  }
+}
