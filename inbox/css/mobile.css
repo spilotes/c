@@ -52,6 +52,13 @@
     top: 36vh;
   }
 
+  .bichinhos {
+    bottom: 11vh;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%);
+  }
+
   audio {
     left: 50%;
     bottom: 5.5vh;
