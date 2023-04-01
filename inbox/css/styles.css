@@ -244,6 +244,14 @@ body {
   filter: drop-shadow(0 0 1rem #ff00ff);
 }
 
+.bichinhos {
+  position: absolute;
+  width: 10rem;
+  bottom: 11.2vh;
+  left: 5vw;
+  z-index: 1;
+}
+
 audio {
   position: absolute;
   bottom: 6.5vh;

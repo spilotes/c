@@ -9,6 +9,13 @@
     right: 7vh;
   }
 
+  .bichinhos {
+    position: absolute;
+    width: 10rem;
+    bottom: 10.5vh;
+    left: 4.5vw;
+  }
+
   .description {
     left: 9.5vh;
   }
