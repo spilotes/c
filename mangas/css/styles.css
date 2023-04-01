@@ -9,17 +9,19 @@
 body {
   width: 100vw;
   height: 100vh;
-  background: url(../img/bg-desk.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  -moz-background-size: cover;
-  background-size: 100% 100%;
-  backdrop-filter: brightness(12%);
   overflow-y: hidden;
   overflow-x: hidden;
+}
+
+.bg {
+  width: 100vw;
+  height: 100vh;
+}
+
+.bg-letters {
+  width: 100vw;
+  height: 101vh;
+  filter: brightness(15%);
 }
 
 .home {
@@ -28,6 +30,7 @@ body {
   left: 0.7rem;
   font-size: 2rem;
   cursor: pointer;
+  filter: drop-shadow(0 0.3rem 0.3rem #000);
   transition: all 0.2s ease-in-out;
 }
 
@@ -35,22 +38,22 @@ body {
   text-decoration: none;
 }
 
-.inbox {
+.bonus {
   position: absolute;
   top: 0.5rem;
   right: 0.5rem;
 }
 
-.inbox .inbox-top {
+.bonus .bonus-top {
   transition: all 300ms ease-in-out;
   text-decoration: none;
 }
 
-.inbox .inbox-top:hover {
+.bonus .bonus-top:hover {
   color: #fff;
 }
 
-.inbox .inbox-top::before {
+.bonus .bonus-top::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -64,145 +67,195 @@ body {
   transition: transform 0.3s ease-in-out;
 }
 
-.inbox .inbox-top:hover::before {
+.bonus .bonus-top:hover::before {
   transform-origin: left;
   transform: scaleX(1);
 }
 
-.title {
+.title h1 {
   position: absolute;
-  left: 50%;
   top: 8vh;
-  font-weight: 500;
+  left: 50%;
   margin-right: -50%;
   transform: translate(-50%);
-  color: #c9d1d9;
-}
-
-.title p {
+  font-weight: 500;
   font-family: "Nanum Pen Script", cursive;
   font-size: 2rem;
 }
 
-.mangas .b45 {
+.inbox {
   position: absolute;
-  width: 10rem;
-  top: 25vh;
-  left: 23vw;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
-}
-
-.mangas .b45:hover {
-  transform: scale(1.02);
-}
-
-.mangas .desc-b45 {
-  position: absolute;
-  top: 62vh;
-  left: 26.1vw;
-  font-weight: 100;
-  font-size: 0.95rem;
-  text-align: center;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
-}
-
-.mangas .desc-b45:hover {
+  top: 14vh;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+  font-size: 0.9rem;
   text-decoration: underline;
 }
 
-.mangas .kimi-no-na-wa {
+.container {
+  position: absolute;
+  top: 30vh;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+  width: 25vw;
+  height: 60vh;
+  overflow-y: visible;
+  overflow-x: visible;
+}
+
+.container .letter1 {
+  position: absolute;
+  top: 2vh;
+  left: 4vh;
+  width: 7.5rem;
+  cursor: pointer;
+  filter: drop-shadow(0 0 1rem purple);
+  transition: all 0.3s ease-in-out;
+}
+
+.container .letter1:hover {
+  transform: scale(1.02);
+  filter: drop-shadow(0 0 1rem #ff00ff);
+}
+
+.container .desc-1 {
+  position: absolute;
+  top: 16vh;
+  left: 3.5vw;
+  font-size: 0.9rem;
+  font-weight: 100;
+}
+
+.container .letter2 {
+  position: absolute;
+  top: 2vh;
+  right: 4vh;
+  width: 7.5rem;
+  cursor: pointer;
+  filter: drop-shadow(0 0 1rem purple);
+  transition: all 0.3s ease-in-out;
+}
+
+.container .letter2:hover {
+  transform: scale(1.02);
+  filter: drop-shadow(0 0 1rem #ff00ff);
+}
+
+.container .desc-2 {
+  position: absolute;
+  top: 16vh;
+  right: 3.5vw;
+  font-size: 0.9rem;
+  font-weight: 100;
+}
+
+.container span {
+  position: absolute;
+  color: #c9d1d9;
+  font-weight: 100;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.container .empty1 {
+  position: absolute;
+  top: 10vw;
+  left: 4vh;
+  width: 7.5rem;
+  height: 5.2rem;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.01);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid #c9d1d9;
+  filter: drop-shadow(0 0 1rem purple);
+  transition: all 0.3s ease-in-out;
+}
+
+.container .empty1:hover {
+  transform: scale(1.02);
+  filter: drop-shadow(0 0 1rem #ff00ff);
+}
+
+.container .empty2 {
+  position: absolute;
+  top: 10vw;
+  right: 4vh;
+  width: 7.5rem;
+  height: 5.2rem;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.01);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid #c9d1d9;
+  filter: drop-shadow(0 0 1rem purple);
+  transition: all 0.3s ease-in-out;
+}
+
+.container .empty2:hover {
+  transform: scale(1.02);
+  filter: drop-shadow(0 0 1rem #ff00ff);
+}
+
+.container .empty3 {
+  position: absolute;
+  top: 19.2vw;
+  left: 4vh;
+  width: 7.5rem;
+  height: 5.2rem;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.01);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid #c9d1d9;
+  filter: drop-shadow(0 0 1rem purple);
+  transition: all 0.3s ease-in-out;
+}
+
+.container .empty3:hover {
+  transform: scale(1.02);
+  filter: drop-shadow(0 0 1rem #ff00ff);
+}
+
+.container .empty4 {
+  position: absolute;
+  top: 19.2vw;
+  right: 4vh;
+  width: 7.5rem;
+  height: 5.2rem;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.01);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid #c9d1d9;
+  filter: drop-shadow(0 0 1rem purple);
+  transition: all 0.3s ease-in-out;
+}
+
+.container .empty4:hover {
+  transform: scale(1.02);
+  filter: drop-shadow(0 0 1rem #ff00ff);
+}
+
+.bichinhos {
   position: absolute;
   width: 10rem;
-  height: 14.95rem;
-  top: 25vh;
-  left: 37.2vw;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
-}
-
-.mangas .kimi-no-na-wa:hover {
-  transform: scale(1.02);
-}
-
-.mangas .desc-kimi-no-na-wa {
-  position: absolute;
-  top: 62vh;
-  left: 39.5vw;
-  font-weight: 100;
-  font-size: 0.95rem;
-  text-align: center;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
-}
-
-.mangas .desc-kimi-no-na-wa:hover {
-  text-decoration: underline;
-}
-
-.mangas .n-d34 {
-  position: absolute;
-  width: 10rem;
-  height: 14.95rem;
-  top: 25vh;
-  right: 37vw;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
-}
-
-.mangas .n-d34:hover {
-  transform: scale(1.02);
-}
-
-.mangas .desc-n-d34 {
-  position: absolute;
-  top: 62vh;
-  left: 52.3vw;
-  font-weight: 100;
-  font-size: 0.95rem;
-  text-align: center;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
-}
-
-.mangas .desc-n-d34:hover {
-  text-decoration: underline;
-}
-
-.mangas .swknu {
-  position: absolute;
-  width: 10rem;
-  height: 14.95rem;
-  top: 25vh;
-  right: 23vw;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
-}
-
-.mangas .swknu:hover {
-  transform: scale(1.02);
-}
-
-.mangas .desc-swknu {
-  position: absolute;
-  top: 62vh;
-  right: 22vw;
-  font-weight: 100;
-  font-size: 0.95rem;
-  text-align: center;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
-}
-
-.mangas .desc-swknu:hover {
-  text-decoration: underline;
+  bottom: 11.2vh;
+  left: 5vw;
+  z-index: 1;
 }
 
 audio {
   position: absolute;
   bottom: 6.5vh;
-  left: 1vw;
+  left: 0.5rem;
   width: 17rem;
   height: 2rem;
 }
@@ -211,6 +264,10 @@ audio {
   position: absolute;
   font-weight: 100;
   bottom: 3vh;
-  left: 4.3vw;
+  left: 12vh;
   font-size: 0.95rem;
+}
+
+.description:hover {
+  text-decoration: underline;
 }

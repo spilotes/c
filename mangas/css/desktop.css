@@ -1,19 +1,22 @@
 @media screen and (min-width: 1400px) {
-  .mangas .kimi-no-na-wa {
-    left: 81.3vh;
+  .container .desc-1 {
+    top: 13vh;
+    left: 4vw;
   }
 
-  .mangas .desc-b45 {
-    top: 56vh;
+  .container .desc-2 {
+    top: 13vh;
+    right: 7vh;
   }
 
-  .mangas .desc-kimi-no-na-wa {
-    top: 56vh;
-    left: 47vw;
+  .bichinhos {
+    position: absolute;
+    width: 10rem;
+    bottom: 10.5vh;
+    left: 4.5vw;
   }
 
-  .mangas .desc-n-d34 {
-    top: 56vh;
-    left: 59.9vw;
+  .description {
+    left: 9.5vh;
   }
 }
