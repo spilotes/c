@@ -1,6 +1,6 @@
 ScrollReveal({ reset: true });
 
-ScrollReveal().reveal(".inbox-top", {
+ScrollReveal().reveal(".inbox", {
   duration: 4000,
   delay: 4000,
 });
