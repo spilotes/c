@@ -1,8 +1,18 @@
 ScrollReveal({ reset: true });
 
-ScrollReveal().reveal(".bonus-top", {
+ScrollReveal().reveal(".bonus", {
   duration: 4000,
   delay: 4000,
+});
+
+ScrollReveal().reveal(".inbox", {
+  duration: 4000,
+  delay: 1500,
+});
+
+ScrollReveal().reveal(".container", {
+  duration: 4000,
+  delay: 1500,
 });
 
 ScrollReveal().reveal("#audio", {
