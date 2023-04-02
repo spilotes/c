@@ -41,6 +41,25 @@ body {
   right: 0.5rem;
 }
 
+/* Define a animação */
+@keyframes animacao {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Aplica a animação ao objeto */
+.inbox {
+  animation-name: animacao;
+  animation-duration: 5s;
+  animation-delay: 4s; /* Define um atraso de 2 segundos */
+  opacity: 0; /* Define a opacidade inicial como 0 */
+  animation-fill-mode: forwards;
+}
+
 .inbox .inbox-top {
   transition: all 300ms ease-in-out;
   text-decoration: none;
@@ -82,6 +101,44 @@ body {
 .title p {
   font-family: "Nanum Pen Script", cursive;
   font-size: 2rem;
+}
+
+/* Define a animação */
+@keyframes animacao {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Aplica a animação ao objeto */
+.title {
+  animation-name: animacao;
+  animation-duration: 1.5s;
+  animation-delay: 1s; /* Define um atraso de 2 segundos */
+  opacity: 0; /* Define a opacidade inicial como 0 */
+  animation-fill-mode: forwards;
+}
+
+/* Define a animação */
+@keyframes animacao {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Aplica a animação ao objeto */
+.mangas {
+  animation-name: animacao;
+  animation-duration: 2s;
+  animation-delay: 1.8s; /* Define um atraso de 2 segundos */
+  opacity: 0; /* Define a opacidade inicial como 0 */
+  animation-fill-mode: forwards;
 }
 
 .mangas .b45 {
@@ -207,10 +264,48 @@ audio {
   height: 2rem;
 }
 
+/* Define a animação */
+@keyframes animacao {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Aplica a animação ao objeto */
+audio {
+  animation-name: animacao;
+  animation-duration: 2s;
+  animation-delay: 1.8s; /* Define um atraso de 2 segundos */
+  opacity: 0; /* Define a opacidade inicial como 0 */
+  animation-fill-mode: forwards;
+}
+
 .description {
   position: absolute;
   font-weight: 100;
   bottom: 3vh;
   left: 4.3vw;
   font-size: 0.95rem;
+}
+
+/* Define a animação */
+@keyframes animacao {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Aplica a animação ao objeto */
+.description {
+  animation-name: animacao;
+  animation-duration: 2s;
+  animation-delay: 1.8s; /* Define um atraso de 2 segundos */
+  opacity: 0; /* Define a opacidade inicial como 0 */
+  animation-fill-mode: forwards;
 }
