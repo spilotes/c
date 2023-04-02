@@ -1,4 +1,10 @@
 @media (max-width: 414px) {
+  .home {
+    position: absolute;
+    top: 0.8rem;
+    left: 0.8rem;
+  }
+
   .girassol {
     width: 17.5rem;
   }
