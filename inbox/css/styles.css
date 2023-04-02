@@ -83,6 +83,25 @@ body {
   font-size: 2rem;
 }
 
+/* Define a animação */
+@keyframes animacao {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Aplica a animação ao objeto */
+.title {
+  animation-name: animacao;
+  animation-duration: 1.5s;
+  animation-delay: 1s; /* Define um atraso de 2 segundos */
+  opacity: 0; /* Define a opacidade inicial como 0 */
+  animation-fill-mode: forwards;
+}
+
 .inbox {
   position: absolute;
   top: 14vh;
@@ -247,7 +266,7 @@ body {
 .bichinhos {
   position: absolute;
   width: 10rem;
-  bottom: 11.2vh;
+  bottom: 12vh;
   left: 5vw;
   z-index: 1;
 }
