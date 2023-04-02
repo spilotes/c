@@ -6,13 +6,13 @@ ScrollReveal().reveal(".bonus", {
 });
 
 ScrollReveal().reveal(".inbox", {
-  duration: 4000,
-  delay: 1500,
+  duration: 1500,
+  delay: 1800,
 });
 
 ScrollReveal().reveal(".container", {
-  duration: 4000,
-  delay: 1500,
+  duration: 1500,
+  delay: 1800,
 });
 
 ScrollReveal().reveal("#audio", {
