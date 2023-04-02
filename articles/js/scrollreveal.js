@@ -71,11 +71,15 @@ ScrollReveal().reveal(".musica", {
 });
 
 ScrollReveal().reveal(".description", {
+  origin: "bottom",
+  distance: "2rem",
   duration: 2000,
   delay: 1000,
 });
 
 ScrollReveal().reveal("audio", {
+  origin: "bottom",
+  distance: "2rem",
   duration: 2000,
   delay: 1000,
 });
