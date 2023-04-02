@@ -268,7 +268,11 @@ body {
   width: 10rem;
   bottom: 12vh;
   left: 5vw;
-  z-index: 1;
+  transition: all 0.3s ease-in-out;
+}
+
+.bichinhos:hover {
+  filter: drop-shadow(0 0 1rem #000);
 }
 
 audio {
