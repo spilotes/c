@@ -1,0 +1,14 @@
+@media screen and (min-width: 1400px) {
+  #random-quote {
+    top: 22vh;
+    font-size: 1.25rem;
+  }
+
+  #generate-quote-button {
+    top: 72vh;
+  }
+
+  .description {
+    left: 5.8vw;
+  }
+}
