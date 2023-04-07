@@ -17,13 +17,13 @@
   }
 
   #generate-quote-button {
-    top: 70vh;
+    top: 71vh;
     left: 50%;
     transform: translate(-50%);
   }
 
   .por-hora {
-    top: 75.5vh;
+    top: 76.5vh;
   }
 
   audio {
