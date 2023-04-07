@@ -184,6 +184,26 @@ body {
   font-weight: 500;
 }
 
+.por-hora {
+  position: absolute;
+  top: 79vh;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 0.7rem;
+  font-weight: 200;
+  font-style: italic;
+  color: #c9d1d9;
+}
+
+/* Aplica a animação ao objeto */
+.por-hora {
+  animation-name: animacao;
+  animation-duration: 4s;
+  animation-delay: 6s; /* Define um atraso de 2 segundos */
+  opacity: 0; /* Define a opacidade inicial como 0 */
+  animation-fill-mode: forwards;
+}
+
 audio {
   position: absolute;
   bottom: 6.5vh;
