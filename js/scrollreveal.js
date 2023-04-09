@@ -45,11 +45,6 @@ ScrollReveal().reveal(".mes", {
   delay: 1800,
 });
 
-ScrollReveal().reveal(".btn", {
-  duration: 1500,
-  delay: 1800,
-});
-
 ScrollReveal().reveal(".musica", {
   origin: "bottom",
   distance: "2rem",
