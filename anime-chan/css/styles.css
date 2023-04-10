@@ -179,7 +179,8 @@ body {
 
 #generate-quote-button:hover {
   border: none;
-  background: #3498db;
+  background-color: #0066cc; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, #0066cc, #3498db;
   color: #000;
   font-weight: 500;
   filter: drop-shadow(0.2rem 0.2rem 0.2rem #000);
