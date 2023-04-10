@@ -86,8 +86,7 @@ body {
 
 /* Dropdown Button */
 .dropbtn {
-  background-color: #0066cc; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to right, #0066cc, #3498db);
+  background-color: #3498db;
   width: 8rem;
   height: 1.7rem;
   font-size: 1.1rem;
@@ -101,9 +100,7 @@ body {
 /* Dropdown button on hover & focus */
 .dropbtn:hover,
 .dropbtn:focus {
-  background-color: #0066cc; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to right, #0066cc, #3498db);
-}
+  background-color: #3498db;
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -286,9 +283,7 @@ body {
 
 .btn:hover {
   border: none;
-  background-color: #0066cc; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to right, #0066cc, #3498db);
-}
+  background: #3498db;
   color: #000;
   font-weight: 500;
 }
@@ -335,4 +330,11 @@ audio {
 
 .description:hover {
   text-decoration: underline;
+}
+
+#random-quote {
+  position: absolute;
+  color: #fff;
+  top: 10vh;
+  left: 10vh;
 }
