@@ -41,13 +41,17 @@
   }
 
   .mes {
-    top: 53vh;
+    top: 52.5vh;
+  }
+
+  .mes .mes-japones {
+    top: 2.8vh;
   }
 
   .btn {
     width: 8.1rem;
     height: 2.5rem;
-    top: 58vh;
+    top: 59vh;
     border-radius: 0.25rem;
   }
 
