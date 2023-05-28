@@ -8,7 +8,7 @@
 
 body {
   width: 100vw;
-  height: 100vh;
+  height: 140vh;
   background: url(../img/bg-desk.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -18,8 +18,25 @@ body {
   -moz-background-size: cover;
   background-size: 100% 100%;
   backdrop-filter: brightness(12%);
-  overflow-y: hidden;
   overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 15px;
+  background: #6b727c;
+  transition: all 300ms ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #c9d1d9;
 }
 
 .home {
@@ -38,7 +55,7 @@ body {
 .inbox {
   position: absolute;
   top: 0.5rem;
-  right: 0.5rem;
+  right: 1rem;
 }
 
 /* Define a animação */
@@ -54,7 +71,7 @@ body {
 /* Aplica a animação ao objeto */
 .inbox {
   animation-name: animacao;
-  animation-duration: 5s;
+  animation-duration: 2s;
   animation-delay: 4s; /* Define um atraso de 2 segundos */
   opacity: 0; /* Define a opacidade inicial como 0 */
   animation-fill-mode: forwards;
@@ -253,6 +270,35 @@ body {
 }
 
 .mangas .desc-swknu:hover {
+  text-decoration: underline;
+}
+
+.mangas .tnk {
+  position: absolute;
+  width: 10rem;
+  height: 14.95rem;
+  top: 74vh;
+  right: 44vw;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.mangas .tnk:hover {
+  transform: scale(1.02);
+}
+
+.mangas .desc-tnk {
+  position: absolute;
+  top: 111vh;
+  right: 43.2vw;
+  font-weight: 100;
+  font-size: 0.95rem;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.mangas .desc-tnk:hover {
   text-decoration: underline;
 }
 
