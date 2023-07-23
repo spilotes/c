@@ -36,6 +36,15 @@
     right: 13vw;
   }
 
+  .container .letter3 {
+    top: 19vh;
+  }
+
+  .container .desc-3 {
+    top: 30.5vh;
+    left: 13.5vw;
+  }
+
   .container .empty1 {
     top: 19vh;
   }
