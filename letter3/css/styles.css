@@ -1,0 +1,315 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: #a64968;
+  width: 100vw;
+  height: 200vh;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 15px;
+  background: #c9d1d9;
+  transition: all 300ms ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6b727c;
+}
+
+main .home1 {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.7rem;
+  font-size: 2rem;
+  cursor: pointer;
+  filter: drop-shadow(0 0.3rem 0.3rem #242424);
+  transition: all 0.2s ease-in-out;
+}
+
+main .home1 a {
+  text-decoration: none;
+}
+
+main .inbox {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+}
+
+main .inbox .inbox-top {
+  color: #c9d1d9;
+  transition: all 300ms ease-in-out;
+  text-decoration: none;
+}
+
+main .inbox .inbox-top:hover {
+  color: #c9d1d9;
+}
+
+main .inbox .inbox-top::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  border-radius: 4px;
+  background-color: #c9d1d9;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+main .inbox .inbox-top:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+main .kokoro {
+  position: absolute;
+  top: 15vh;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+  font-size: 2rem;
+}
+
+main .title {
+  position: absolute;
+  top: 18vh;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+  padding: 5vh;
+}
+
+main .title-span {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: #000;
+}
+
+main .img1 {
+  position: absolute;
+  width: 16vw;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  filter: drop-shadow(0.3rem 0 0.3rem #000000);
+}
+
+main .img2 {
+  position: absolute;
+  cursor: pointer;
+  top: 84vh;
+  left: 47%;
+  margin-right: -50%;
+  transform: translate(-50%);
+  width: 5vw;
+  filter: drop-shadow(0.3rem 0 0.3rem #000000);
+  display: none;
+}
+
+main .img2-1 {
+  position: absolute;
+  cursor: pointer;
+  top: 88vh;
+  left: 48%;
+  margin-right: -50%;
+  transform: translate(-50%);
+  width: 5vw;
+  filter: drop-shadow(0.3rem 0 0.3rem #000000);
+  display: block;
+}
+
+main .img2-2 {
+  position: absolute;
+  cursor: pointer;
+  top: 88vh;
+  left: 48%;
+  margin-right: -50%;
+  transform: translate(-50%);
+  width: 5vw;
+  filter: drop-shadow(0.3rem 0 0.3rem #000000);
+  display: none;
+}
+
+.content1 {
+  position: absolute;
+  top: 101vh;
+  width: 100%;
+  height: 115vh;
+  background-color: #e0e8db;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+}
+
+.content1 .img3 {
+  position: absolute;
+  top: 6.5vh;
+  left: 30%;
+  margin-right: -50%;
+  transform: translate(-50%);
+  width: 35vw;
+  transition: all ease-in-out 0.2s;
+  filter: drop-shadow(0.3rem 0.3rem 0.3rem #000000);
+}
+
+.content1 .gloomygrove1 {
+  position: absolute;
+  color: transparent;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.3rem;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  top: 92.2vh;
+  left: 41%;
+  margin-right: -50%;
+  transform: translate(-50%);
+  transition: all ease-in-out 0.2s;
+}
+
+.content1 .img4 {
+  position: absolute;
+  top: 6.5vh;
+  left: 70%;
+  margin-right: -50%;
+  transform: translate(-50%);
+  width: 35vw;
+  transition: all ease-in-out 0.2s;
+  filter: drop-shadow(0.3rem 0.3rem 0.3rem #000000);
+}
+
+.content1 .gloomygrove2 {
+  position: absolute;
+  color: transparent;
+  font-size: 1.3rem;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  top: 92.2vh;
+  left: 81%;
+  margin-right: -50%;
+  transform: translate(-50%);
+  transition: all ease-in-out 0.2s;
+}
+
+.content1 audio {
+  position: absolute;
+  bottom: 6.5vh;
+  left: 50%;
+  transform: translate(-50%);
+  width: 17rem;
+  height: 2rem;
+}
+
+.content1 .description {
+  position: absolute;
+  font-weight: 100;
+  bottom: 3.5vh;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 0.95rem;
+  color: #000;
+}
+
+.content1 .description:hover {
+  text-decoration: underline;
+}
+
+.content2 {
+  position: absolute;
+  top: 216vh;
+  width: 100vw;
+  height: 530vh;
+  background-image: url(../img/bglettler-desktop2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-size: 100% 100%;
+  filter: brightness(28%);
+}
+
+.text {
+  position: absolute;
+  top: 170vh;
+  width: 100vw;
+}
+
+.text .cute-ghots {
+  position: absolute;
+  width: 7.5vw;
+  top: 66vh;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+}
+
+.text .name-font {
+  position: absolute;
+  top: -8vh;
+  left: 39.5%;
+  margin-right: -50%;
+  transform: translate(-50%);
+  color: #c9d1d9;
+  font-family: "Nanum Pen Script", cursive !important;
+  font-size: 1.9rem;
+  font-style: italic;
+}
+
+.text span {
+  position: absolute;
+  top: 14vh;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+  color: #c9d1d9;
+  font-size: 1.03rem;
+  font-weight: 300;
+  padding: 72vh;
+  font-family: "Roboto", sans-serif;
+}
+
+.beedril {
+  display: none;
+}
+
+.chikorita-cyndaquil {
+  position: absolute;
+  width: 19vw;
+  top: 704vh;
+  left: 28.5vw;
+  filter: brightness(95%);
+  display: block;
+}
+
+.up {
+  position: absolute;
+  font-size: 1.5rem;
+  top: 735vh;
+  right: 1rem;
+  cursor: pointer;
+}
