@@ -9,6 +9,16 @@
     right: 7vh;
   }
 
+  .container .letter3 {
+    top: 18.5vh;
+    width: 7.5rem;
+  }
+
+  .container .desc-3 {
+    top: 29.5vh;
+    left: 3.8vw;
+  }
+
   .bichinhos {
     position: absolute;
     width: 10rem;
