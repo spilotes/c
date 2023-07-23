@@ -167,6 +167,15 @@
     display: block;
   }
 
+  .beedril2 {
+    position: absolute;
+    width: 20vw;
+    top: 637vh;
+    right: 18vw;
+    filter: brightness(95%);
+    display: block;
+  }
+
   .chikorita-cyndaquil {
     display: none;
   }

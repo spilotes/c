@@ -60,6 +60,11 @@ ScrollReveal().reveal(".beedril", {
   delay: 2000,
 });
 
+ScrollReveal().reveal(".beedril2", {
+  duration: 1000,
+  delay: 2000,
+});
+
 ScrollReveal().reveal(".chikorita-cyndaquil", {
   duration: 1000,
   delay: 2000,
