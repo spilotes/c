@@ -72,6 +72,7 @@
     transform: translate(-50%);
     width: 17rem;
     height: 2rem;
+    z-index: 1;
   }
 
   .content1 .description {
