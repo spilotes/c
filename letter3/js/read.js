@@ -8,7 +8,7 @@ function ler1() {
 
 function ler2() {
   window.scrollTo({
-    top: 670,
+    top: 677,
     left: 0,
     behavior: "smooth",
   });
