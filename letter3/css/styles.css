@@ -188,6 +188,7 @@ main .img2-2 {
   margin-right: -50%;
   transform: translate(-50%);
   transition: all ease-in-out 0.2s;
+  z-index: 1;
 }
 
 .content1 .img4 {
@@ -212,6 +213,7 @@ main .img2-2 {
   margin-right: -50%;
   transform: translate(-50%);
   transition: all ease-in-out 0.2s;
+  z-index: 1;
 }
 
 .content1 audio {
