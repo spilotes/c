@@ -181,6 +181,18 @@
     display: none;
   }
 
+  .ig {
+    font-size: 1.45rem;
+    top: 661.5vh;
+    left: 66vw;
+  }
+
+  .frame {
+    top: 661.5vh;
+    font-size: 1.45rem;
+    left: 5.5vw;
+  }
+
   .up {
     position: absolute;
     font-size: 1.5rem;

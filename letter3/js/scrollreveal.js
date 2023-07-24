@@ -65,7 +65,22 @@ ScrollReveal().reveal(".beedril2", {
   delay: 2000,
 });
 
+ScrollReveal().reveal(".frame", {
+  duration: 1000,
+  delay: 4000,
+});
+
+ScrollReveal().reveal(".ig", {
+  duration: 1000,
+  delay: 4000,
+});
+
 ScrollReveal().reveal(".chikorita-cyndaquil", {
+  duration: 1000,
+  delay: 2000,
+});
+
+ScrollReveal().reveal(".up", {
   duration: 1000,
   delay: 2000,
 });
