@@ -223,6 +223,7 @@ main .img2-2 {
   transform: translate(-50%);
   width: 17rem;
   height: 2rem;
+  filter: drop-shadow(0.3rem 0.3rem 0.3rem #000000);
   z-index: 1;
 }
 
