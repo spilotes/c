@@ -235,6 +235,7 @@ main .img2-2 {
   transform: translate(-50%);
   font-size: 0.95rem;
   color: #000;
+  z-index: 1;
 }
 
 .content1 .description:hover {
