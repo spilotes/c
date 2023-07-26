@@ -230,7 +230,7 @@ main .img2-2 {
 .content1 .description {
   position: absolute;
   font-weight: 100;
-  bottom: 3.3vh;
+  bottom: 3vh;
   left: 50%;
   transform: translate(-50%);
   font-size: 0.95rem;
