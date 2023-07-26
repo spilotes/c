@@ -67,22 +67,24 @@
 
   .content1 audio {
     position: absolute;
-    bottom: 5.5vh;
+    bottom: 6.5vh;
     left: 50%;
     transform: translate(-50%);
     width: 17rem;
     height: 2rem;
+    filter: drop-shadow(0.3rem 0.3rem 0.3rem #000000);
     z-index: 1;
   }
 
   .content1 .description {
     position: absolute;
-    font-weight: 100;
-    bottom: 2.5vh;
+    font-weight: 300;
+    bottom: 2.8vh;
     left: 50%;
     transform: translate(-50%);
     font-size: 0.95rem;
     color: #000;
+    z-index: 1;
   }
 
   .content2 {
@@ -114,6 +116,26 @@
 
   .beedril2 {
     display: none;
+  }
+
+  .frame {
+    position: absolute;
+    font-size: 1.8rem;
+    top: 628vh;
+    left: 7vw;
+    color: #c9d1d9;
+    text-decoration: none;
+    font-family: "Nanum Pen Script", cursive;
+  }
+
+  .ig {
+    position: absolute;
+    font-size: 1.8rem;
+    top: 618vh;
+    left: 7vw;
+    color: #c9d1d9;
+    text-decoration: none;
+    font-family: "Nanum Pen Script", cursive;
   }
 
   .chikorita-cyndaquil {
