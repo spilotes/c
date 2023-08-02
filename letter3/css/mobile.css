@@ -105,10 +105,10 @@
   .content1 .description {
     position: absolute;
     font-weight: 300;
-    bottom: 3.3vh;
+    bottom: 3.4vh;
     left: 50%;
     transform: translate(-50%);
-    font-size: 0.95rem;
+    font-size: 0.85rem;
     color: #000;
     white-space: nowrap;
   }
