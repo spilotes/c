@@ -31,6 +31,10 @@
     top: 18vh;
   }
 
+  .notification p {
+  font-size: 1.05rem;
+  }
+  
   .carta {
     width: 8rem;
     top: 33vh;
