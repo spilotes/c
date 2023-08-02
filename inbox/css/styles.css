@@ -21,7 +21,7 @@ body {
 .bg-letters {
   width: 100vw;
   height: 101vh;
-  filter: brightness(18%);
+  filter: brightness(20%);
 }
 
 .home {
@@ -289,7 +289,7 @@ audio {
 .description {
   position: absolute;
   font-weight: 300;
-  bottom: 3.2vh;
+  bottom: 3.4vh;
   left: 12vh;
   font-size: 0.85rem;
 }
