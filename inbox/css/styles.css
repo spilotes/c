@@ -279,7 +279,7 @@ body {
 
 audio {
   position: absolute;
-  bottom: 6.5vh;
+  bottom: 6.3vh;
   left: 0.5rem;
   width: 17rem;
   height: 2rem;
@@ -289,7 +289,7 @@ audio {
 .description {
   position: absolute;
   font-weight: 300;
-  bottom: 3.4vh;
+  bottom: 3vh;
   left: 12vh;
   font-size: 0.85rem;
 }
