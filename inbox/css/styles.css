@@ -21,7 +21,7 @@ body {
 .bg-letters {
   width: 100vw;
   height: 101vh;
-  filter: brightness(20%);
+  filter: brightness(24%);
 }
 
 .home {
