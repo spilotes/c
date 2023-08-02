@@ -283,14 +283,15 @@ audio {
   left: 0.5rem;
   width: 17rem;
   height: 2rem;
+  filter: drop-shadow(0.2rem 0.2rem 0.2rem #000000);
 }
 
 .description {
   position: absolute;
-  font-weight: 100;
-  bottom: 3vh;
+  font-weight: 300;
+  bottom: 3.1vh;
   left: 12vh;
-  font-size: 0.95rem;
+  font-size: 0.85rem;
 }
 
 .description:hover {
