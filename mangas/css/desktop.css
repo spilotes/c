@@ -1,7 +1,4 @@
 @media screen and (min-width: 1400px) {
-  body {
-    height: 120vh;
-  }
   .mangas .kimi-no-na-wa {
     left: 81.3vh;
   }
@@ -32,15 +29,5 @@
   .mangas .desc-swknu {
     top: 56vh;
     right: 22vw;
-  }
-
-  .mangas .tnk {
-    top: 65vh;
-  }
-
-  .mangas .desc-tnk {
-    width: 13rem;
-    top: 96vh;
-    left: 43.2vw;
   }
 }
