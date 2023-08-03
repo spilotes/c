@@ -9,6 +9,7 @@
   }
 
   #temperatura {
+    top: 1.6rem;
     font-size: 0.95rem;
     font-weight: 300;
   }
