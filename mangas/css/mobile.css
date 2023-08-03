@@ -20,6 +20,9 @@
     -moz-background-size: cover;
   }
 
+  .home {
+    top: 51vh;
+
   .inbox {
     top: 101vh;
     right: 0.5rem;
