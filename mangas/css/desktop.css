@@ -4,7 +4,7 @@
   }
 
   .mangas .desc-b45 {
-    top: 56vh;
+    top: 156vh;
   }
 
   .mangas .kimi-no-na-wa {
@@ -12,22 +12,30 @@
   }
 
   .mangas .desc-kimi-no-na-wa {
-    top: 56vh;
+    top: 156vh;
     left: 39.7vw;
   }
 
   .mangas .desc-n-d34 {
-    top: 56vh;
+    top: 156vh;
     left: 52.8vw;
   }
 
   .mangas .swknu {
-    top: 25vh;
+    top: 125vh;
     right: 23vw;
   }
 
   .mangas .desc-swknu {
-    top: 56vh;
+    top: 156vh;
     right: 22vw;
+  }
+
+  .mangas .tnk {
+    top: 167vh;
+  }
+
+  .mangas .desc-tnk {
+    top: 198vh;
   }
 }
