@@ -38,4 +38,10 @@
   .mangas .desc-tnk {
     top: 198vh;
   }
+
+  .description {
+    position: absolute;
+    font-size: 0.85rem;
+    font-weight: 500;
+  }
 }
