@@ -25,6 +25,12 @@
     background-color: #121212;
   }
 
+  .container1 .frame {
+    position: absolute;
+    width: 95vw;
+    top: 10vh;
+  }
+  
   .container2 {
     position: absolute;
     top: 200vh;
