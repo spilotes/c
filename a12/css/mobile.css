@@ -9,8 +9,9 @@
   left: 6vw;
   }
 
-  main .home1 a {
+  main .home {
     font-size: 1rem;
+    text-decoration: none;
   }
 
   main .calcifer {
