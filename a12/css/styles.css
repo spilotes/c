@@ -20,13 +20,13 @@ main .home1 {
   position: absolute;
   top: -24vh;
   left: 2.5vw;
-  font-size: 1.3rem;
   cursor: pointer;
   filter: drop-shadow(0 0.3rem 0.3rem #242424);
   transition: all 0.2s ease-in-out;
 }
 
 main .home1 a {
+  font-size: 1rem;
   text-decoration: none;
 }
 
