@@ -54,6 +54,8 @@
     transform: translate(-50%);
     width: 17rem;
     height: 2rem;
+    filter: drop-shadow(0.2rem 0.2rem 0.2rem #000000);
+    z-index: 1;
   }
 
   .container1 .description-song{
@@ -65,6 +67,7 @@
     font-size: 0.85rem;
     color: #000;
     white-space: nowrap;
+    z-index: 1;
   }
   
   .container2 {
