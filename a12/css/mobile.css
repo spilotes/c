@@ -10,9 +10,17 @@
     bottom: 5vh;
   }
 
-  .container {
+  .container1 {
     position: absolute;
     top: 100vh;
+    width: 100vw;
+    height: 100vh;
+    background-color: #121212;
+  }
+
+  .container2 {
+    position: absolute;
+    top: 200vh;
     width: 100vw;
     height: 100vh;
     background-image: url(../img/bg-mobile.jpg);
@@ -26,7 +34,7 @@
     filter: brightness(80%);
   }
 
-  .container .one {
+  .container2 .one {
     position: absolute;
     top: 16vh;
     color: #c9d1d9;
@@ -38,7 +46,7 @@
     transform: translate(-50%);
   }
 
-  .container .two {
+  .container2 .two {
     position: absolute;
     top: 11vh;
     color: #c9d1d9;
