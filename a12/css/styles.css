@@ -16,29 +16,11 @@ main {
   background-color: #f6c493;
 }
 
-::-webkit-scrollbar {
-  width: 0.5rem;
-}
-
-::-webkit-scrollbar-track {
-  background: #000000;
-}
-
-::-webkit-scrollbar-thumb {
-  border-radius: 15px;
-  background: #c9d1d9;
-  transition: all 300ms ease-in-out;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #6b727c;
-}
-
 main .home1 {
   position: absolute;
-  top: 0.5rem;
-  left: 0.7rem;
-  font-size: 2rem;
+  top: -24vh;
+  left: 2.5vw;
+  font-size: 1.3rem;
   cursor: pointer;
   filter: drop-shadow(0 0.3rem 0.3rem #242424);
   transition: all 0.2s ease-in-out;
@@ -55,13 +37,13 @@ main .inbox {
 }
 
 main .inbox .inbox-top {
-  color: #c9d1d9;
+  color: #242424;
   transition: all 300ms ease-in-out;
   text-decoration: none;
 }
 
 main .inbox .inbox-top:hover {
-  color: #c9d1d9;
+  color: #242424;
 }
 
 main .inbox .inbox-top::before {
@@ -70,7 +52,7 @@ main .inbox .inbox-top::before {
   width: 100%;
   height: 1px;
   border-radius: 4px;
-  background-color: #c9d1d9;
+  background-color: #242424;
   bottom: 0;
   left: 0;
   transform-origin: right;
