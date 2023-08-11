@@ -34,7 +34,7 @@
     transform: translate(-50%);
   }
 
-  .container1 . description {
+  .container1 .description {
     position: absolute;
     top: 40vh;
     font-size: 0.85rem;
