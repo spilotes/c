@@ -24,7 +24,7 @@
     height: 100vh;
     background-color: #121212;
   }
-
+  
   .container1 .frame {
     position: absolute;
     width: 95vw;
@@ -32,6 +32,14 @@
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%);
+  }
+
+  .container1 . description {
+    position: absolute;
+    top: 40vh;
+    font-size: 0.85rem;
+    font-weight: 300;
+    color: #c9d1d9;
   }
   
   .container2 {
