@@ -7,9 +7,11 @@
   main .home1 {
   top: -28vh;
   left: 6vw;
-  font-size: 0.85rem;
   }
-  
+
+  main .home1 a {
+    font-size: 1.3rem;
+  }
 
   main .calcifer {
     position: absolute;
