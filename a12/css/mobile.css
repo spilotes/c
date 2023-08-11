@@ -4,6 +4,13 @@
     font-size: 2.9rem;
   }
 
+  main .home1 {
+  top: -26vh;
+  left: 3vw;
+  font-size: 1rem;
+  }
+  
+
   main .calcifer {
     position: absolute;
     width: 40vw;
