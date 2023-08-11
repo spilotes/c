@@ -95,6 +95,12 @@ main .calcifer:hover {
 
 .hr1 {
   color: #2b2c2c;
+  position: absolute;
+  top: 20px;
+  border: none;
+  height: 2px;
+  background: #2b2c2c;
+  margin-bottom: 50px;
   }
 
 .container2 {
