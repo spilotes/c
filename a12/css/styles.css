@@ -97,6 +97,7 @@ main .calcifer:hover {
   color: #2b2c2c;
   position: absolute;
   border: none;
+  width: 100vw;
   height: 2px;
   background: #2b2c2c;
   }
