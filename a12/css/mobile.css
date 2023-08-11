@@ -28,7 +28,10 @@
   .container1 .frame {
     position: absolute;
     width: 95vw;
-    top: 10vh;
+    top: 15vh;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%);
   }
   
   .container2 {
