@@ -1,0 +1,52 @@
+@media (max-width: 414px) {
+  main span {
+    top: 30vh;
+    font-size: 2.9rem;
+  }
+
+  main .calcifer {
+    position: absolute;
+    width: 40vw;
+    bottom: 5vh;
+  }
+
+  .container {
+    position: absolute;
+    top: 100vh;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/bg-mobile.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: 100% 100%;
+    filter: brightness(80%);
+  }
+
+  .container .one {
+    position: absolute;
+    top: 16vh;
+    color: #c9d1d9;
+    font-family: "Nanum Pen Script", cursive;
+    font-size: 2rem;
+    font-weight: 200;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%);
+  }
+
+  .container .two {
+    position: absolute;
+    top: 11vh;
+    color: #c9d1d9;
+    font-family: "Nanum Pen Script", cursive;
+    font-size: 2.7rem;
+    font-weight: 200;
+    left: 35.5%;
+    margin-right: -50%;
+    transform: translate(-50%);
+  }
+}
