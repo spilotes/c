@@ -94,7 +94,8 @@ main .calcifer:hover {
 }
 
 hr {
-  border-botton: 10px solid red;
+  position: absolute;
+border-botton: 10px solid red;
   }
 
 .container2 {
