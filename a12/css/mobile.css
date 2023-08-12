@@ -110,4 +110,12 @@
     font-family: "Nanum Pen Script", cursive;
     font-size: 1.9rem;
   }
+
+  .cobtainer2 .secret-link {
+    position: absolute;
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 300;
+    bottom: 15vh;
+  }
 }
