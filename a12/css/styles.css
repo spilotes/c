@@ -93,7 +93,7 @@ main .calcifer:hover {
   filter: drop-shadow(0 -1.5rem 1.3rem #fff);
 }
 
-.hr1 {
+hr {
   height: 6px;
   background: #2b2c2c;
   }
