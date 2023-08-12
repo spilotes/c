@@ -113,9 +113,15 @@
 
   .cobtainer2 .secret-link {
     position: absolute;
+    bottom: 15vh;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%);
+  }
+
+  .container2 .secret-link a {
     text-decoration: none;
     font-size: 0.95rem;
     font-weight: 300;
-    bottom: 15vh;
   }
 }
