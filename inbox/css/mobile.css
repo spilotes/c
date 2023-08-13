@@ -45,6 +45,16 @@
     left: 13.5vw;
   }
 
+  .container .letter4 {
+    top: 19vh;
+    right: 4vh;
+  }
+
+  .container .desc-4 {
+    top: 30.5vh;
+    right: 13vw;
+  }
+
   .container .empty1 {
     top: 19vh;
   }
@@ -79,6 +89,6 @@
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%);
-    bottom: 2.3vh;
+    bottom: 2vh;
   }
 }

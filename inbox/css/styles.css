@@ -193,6 +193,29 @@ body {
   font-weight: 100;
 }
 
+.container .letter4 {
+  position: absolute;
+  top: 21vh;
+  right: 4vh;
+  width: 7.5rem;
+  cursor: pointer;
+  filter: drop-shadow(0 0 1rem purple);
+  transition: all 0.3s ease-in-out;
+}
+
+.container .letter4:hover {
+  transform: scale(1.02);
+  filter: drop-shadow(0 0 1rem #ccc);
+}
+
+.container .desc-4 {
+  position: absolute;
+  top: 35vh;
+  right: 3.6vw;
+  font-size: 0.9rem;
+  font-weight: 100;
+}
+
 .container span {
   position: absolute;
   color: #c9d1d9;
@@ -200,27 +223,6 @@ body {
   top: 25%;
   left: 50%;
   transform: translate(-50%, 50%);
-}
-
-.container .empty2 {
-  position: absolute;
-  top: 10vw;
-  right: 4vh;
-  width: 7.5rem;
-  height: 5.2rem;
-  cursor: pointer;
-  background: rgba(255, 255, 255, 0.01);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
-  border: 1px solid #c9d1d9;
-  filter: drop-shadow(0 0 1rem purple);
-  transition: all 0.3s ease-in-out;
-}
-
-.container .empty2:hover {
-  transform: scale(1.02);
-  filter: drop-shadow(0 0 1rem #ff00ff);
 }
 
 .container .empty3 {
