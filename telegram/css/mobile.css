@@ -330,10 +330,6 @@
     filter: drop-shadow(-0.5rem 0 0.3rem #000000);
   }
 
-  .container-pics .heen:hover {
-  transform: rotate(0deg);
-}
-
   .container-pics .heen-question {
     position: absolute;
     bottom: 28.5vh;
