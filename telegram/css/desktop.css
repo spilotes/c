@@ -1,0 +1,115 @@
+@media screen and (min-width: 1400px) {
+  .container1 .pain-bat {
+    display: none;
+  }
+
+  .container1 .pain-bat-desktop {
+    position: absolute;
+    width: 10.5vw;
+    top: 17.5vh;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    display: block;
+  }
+
+  .container1 .description {
+    position: absolute;
+    top: 88vh;
+    left: 29vw;
+    font-size: 0.97rem;
+  }
+
+  .container1 audio {
+    bottom: 7.5vh;
+  }
+
+  .container1 .description-song {
+    bottom: 4.4vh;
+  }
+
+  .container2 .texto {
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%);
+    color: #000;
+  }
+
+  .container2 .link-s {
+    position: absolute;
+    bottom: 21vh;
+  }
+
+  .container2 .link-s a {
+    font-size: 1.1rem;
+    font-weight: 300;
+  }
+
+  .container-pics .balao {
+    position: absolute;
+    bottom: 25vh;
+    right: 34.5vw;
+    width: 13vw;
+  }
+
+  .container-pics .heen-question {
+    bottom: 35vh;
+    right: 72.4vh;
+  }
+
+  .container-pics .heen-question .tradutor-bottom {
+    bottom: -1vh;
+    right: -2.9vw;
+  }
+
+  .main-ghosts .ge {
+    left: 6.1vw;
+    top: 19.7vh;
+  }
+
+  .main-ghosts .direto {
+    left: 17vw;
+    top: 21.3vh;
+  }
+
+  .main-ghosts .julho {
+    left: 29.7vw;
+    top: 21.3vh;
+  }
+
+  .main-ghosts .ghost1 {
+    width: 28.5vw;
+  }
+
+  section .ghost2 {
+    width: 28.5vw;
+  }
+
+  section .ikai-ito {
+    position: absolute;
+    width: 7.1vw;
+    top: -70vh;
+    left: 46.5%;
+    margin-right: -50%;
+    transform: translate(-50%);
+    transform: rotate(-90deg);
+  }
+
+  section .ge {
+    right: 31.7vw;
+    top: -79.6vh;
+  }
+
+  section .direto {
+    right: 17.5vw;
+    top: -77.7vh;
+  }
+
+  section .julho {
+    right: 5.1vw;
+    top: -77.7vh;
+  }
+}

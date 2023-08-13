@@ -1,0 +1,489 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 15px;
+  background: #c9d1d9;
+  transition: all 300ms ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6b727c;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f6c493;
+  border-bottom: 0.5px solid #2b2c2c;
+}
+
+main .home1 {
+  position: absolute;
+  top: -23.75vh;
+  left: 2.25vw;
+  cursor: pointer;
+  filter: drop-shadow(0 0.3rem 0.3rem #242424);
+  transition: all 0.2s ease-in-out;
+}
+
+main .home1 a {
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+main .home {
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+main .inbox {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+}
+
+main .inbox .inbox-top {
+  color: #242424;
+  transition: all 300ms ease-in-out;
+  text-decoration: none;
+}
+
+main .inbox .inbox-top:hover {
+  color: #242424;
+}
+
+main .inbox .inbox-top::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  border-radius: 4px;
+  background-color: #242424;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+main .inbox .inbox-top:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+main span {
+  position: absolute;
+  top: 25vh;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+  color: #242424;
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 2.3rem;
+  font-weight: 500;
+  z-index: 1;
+}
+
+main .calcifer {
+  position: absolute;
+  width: 13vw;
+  bottom: 5vh;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+  filter: drop-shadow(0 0.6rem 1.3rem #f9a963);
+  transition: all 0.3s ease-in-out;
+}
+
+main .calcifer:hover {
+  filter: drop-shadow(0 -1.5rem 1.3rem #fff);
+}
+
+.container1 {
+  position: absolute;
+  top: 100vh;
+  width: 100vw;
+  height: 115vh;
+  background-color: #121212;
+  border-bottom: 0.5px solid #2b2c2c;
+}
+
+.container1 .pain-bat {
+  position: absolute;
+  width: 10.5vw;
+  top: 17.5vh;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.container1 .pain-bat-desktop {
+  display: none;
+}
+
+.container1 .frame {
+  position: absolute;
+  width: 44vw;
+  top: 28vh;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+  filter: drop-shadow(0.3rem 0.3rem 0.3rem #000000);
+}
+
+.container1 .description {
+  position: absolute;
+  top: 96.3vh;
+  left: 29vw;
+  font-size: 0.97rem;
+  font-weight: 400;
+  color: #c9d1d9;
+  text-decoration: none;
+}
+
+.container1 audio {
+  position: absolute;
+  bottom: 6.5vh;
+  left: 50%;
+  transform: translate(-50%);
+  width: 17rem;
+  height: 2rem;
+  filter: drop-shadow(0.2rem 0.2rem 0.2rem #000000);
+  z-index: 1;
+}
+
+.container1 .description-song {
+  position: absolute;
+  font-weight: 300;
+  bottom: 3.4vh;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 0.85rem;
+  color: #c9d1d9;
+  white-space: nowrap;
+  z-index: 1;
+}
+
+.container1 .description-song:hover {
+  text-decoration: underline;
+}
+
+.container2 {
+  position: absolute;
+  top: 215vh;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../img/bg-desktop2.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-size: 100% 100%;
+}
+
+.container2 .texto {
+  position: absolute;
+  top: 11vh;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+  color: #121212;
+}
+
+.container2 .texto .one,
+.two {
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 1.9rem;
+}
+
+.container2 .link-s {
+  position: absolute;
+  bottom: 20vh;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+}
+
+.container2 .link-s a {
+  font-size: 1.1rem;
+  font-weight: 300;
+  color: #c9d1d9;
+  text-decoration: none;
+  letter-spacing: 0.6rem;
+}
+
+.container2 .link-s a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  border-radius: 4px;
+  background-color: #c9d1d9;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.container2 .link-s a:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+.main-ghosts .inbox .inbox-top {
+  color: #c9d1d9;
+  transition: all 300ms ease-in-out;
+  text-decoration: none;
+}
+
+.main-ghosts .inbox .inbox-top:hover {
+  color: #c9d1d9;
+}
+
+.main-ghosts .inbox .inbox-top::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  border-radius: 4px;
+  background-color: #c9d1d9;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.main-ghosts .inbox .inbox-top:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+.main-ghosts {
+  background-color: #181818;
+}
+
+.main-ghosts .home1 {
+  filter: drop-shadow(0 0 0.5rem #000);
+}
+
+.main-ghosts .ghost1 {
+  position: absolute;
+  width: 25vw;
+  top: 24vh;
+  left: 5vw;
+  filter: drop-shadow(0 0 0.5rem #000);
+  z-index: 1;
+}
+
+.main-ghosts .inbox .inbox-top {
+  filter: drop-shadow(0 0 0.5rem #000);
+}
+
+.main-ghosts .ge {
+  position: absolute;
+  left: 6.1vw;
+  top: 18.7vh;
+  color: #c9d1d9;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+}
+
+.main-ghosts .direto {
+  position: absolute;
+  font-size: 0.95rem;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  left: 15vw;
+  top: 20.7vh;
+  color: #c9d1d9;
+  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-color: #000;
+}
+
+.main-ghosts .julho {
+  position: absolute;
+  font-size: 0.95rem;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  left: 26vw;
+  top: 20.7vh;
+  color: #c9d1d9;
+  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-color: #000;
+}
+
+.main-ghosts .left-p {
+  position: absolute;
+  font-size: 0.85rem;
+  font-style: italic;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  top: 95.3vh;
+  left: 8.5vw;
+  color: #c9d1d9;
+}
+
+.container2 .texto {
+  position: absolute;
+  top: 50vh;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+  color: #000;
+}
+
+section {
+  width: 100vw;
+  height: 35vh;
+  position: absolute;
+  top: 99vh;
+  background-color: #181818;
+}
+
+section .ge {
+  position: absolute;
+  right: 28vw;
+  top: -80.5vh;
+  font-size: 2.5rem;
+  font-family: "Nanum Pen Script", cursive;
+  color: #c9d1d9;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+}
+
+section .direto {
+  position: absolute;
+  font-size: 0.95rem;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  right: 17.5vw;
+  top: -78.3vh;
+  color: #c9d1d9;
+  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-color: #000;
+}
+
+section .julho {
+  position: absolute;
+  font-size: 0.95rem;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  right: 5.1vw;
+  top: -78.3vh;
+  color: #c9d1d9;
+  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-color: #000;
+}
+
+section .ghost2 {
+  position: absolute;
+  width: 25vw;
+  top: -75vh;
+  right: 5vw;
+  filter: drop-shadow(0 0 0.5rem #000);
+}
+
+section .right-p {
+  position: absolute;
+  font-size: 0.85rem;
+  font-style: italic;
+  font-weight: 300;
+  top: -3.7vh;
+  right: 5vw;
+  color: #c9d1d9;
+}
+
+section .ikai-ito {
+  position: absolute;
+  width: 8.5vw;
+  top: -85vh;
+  left: 45.8%;
+  margin-right: -50%;
+  transform: translate(-50%);
+  transform: rotate(-90deg);
+}
+
+.container-pics {
+  position: absolute;
+  top: 124vh;
+  width: 100vw;
+  height: 70vh;
+  background: rgb(24, 24, 24);
+  background: linear-gradient(
+    180deg,
+    rgba(24, 24, 24, 1) 0%,
+    rgba(246, 196, 147, 1) 100%
+  );
+}
+
+.container-pics a {
+  text-decoration: none;
+  color: #121212;
+}
+
+.container-pics .balao {
+  position: absolute;
+  bottom: 30vh;
+  right: 33vw;
+  width: 13vw;
+}
+
+.container-pics .heen {
+  position: absolute;
+  width: 20vw;
+  bottom: 6vh;
+  left: 39vw;
+  filter: drop-shadow(-0.5rem 0 0.3rem #000000);
+}
+
+.container-pics .heen:hover {
+  transform: rotate(-0.5deg);
+}
+
+.container-pics .heen-question {
+  position: absolute;
+  bottom: 41vh;
+  right: 78.7vh;
+  text-align: center;
+}
+
+.container-pics .heen-question .au {
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 2.8em;
+}
+
+.container-pics .heen-question .tradutor {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 0.75rem;
+}
+
+.container-pics .heen-question .tradutor-bottom {
+  position: absolute;
+  bottom: -1vh;
+  right: -2.9vw;
+  white-space: nowrap;
+}

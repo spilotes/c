@@ -1,0 +1,356 @@
+@media (max-width: 414px) {
+  main span {
+    top: 30vh;
+    font-size: 2.9rem;
+  }
+
+  main .home1 {
+    top: -28.5vh;
+    left: 8vw;
+  }
+
+  main .home {
+    font-size: 2rem;
+    text-decoration: none;
+  }
+
+  main .calcifer {
+    position: absolute;
+    width: 40vw;
+    bottom: 5vh;
+  }
+
+  .container1 {
+    position: absolute;
+    top: 100vh;
+    width: 100vw;
+    height: 100vh;
+    background-color: #121212;
+  }
+
+  .container1 .pain-bat {
+    position: absolute;
+    width: 34vw;
+    top: 15vh;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .container1 .pain-bat-desktop {
+    display: none;
+  }
+
+  .container1 .frame {
+    position: absolute;
+    width: 95vw;
+    top: 47vh;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    filter: drop-shadow(0.3rem 0.3rem 0.3rem #000000);
+  }
+
+  .container1 .description {
+    position: absolute;
+    top: 65.3vh;
+    left: 4.5vw;
+    font-size: 0.97rem;
+    font-weight: 400;
+    color: #c9d1d9;
+    text-decoration: none;
+  }
+
+  .container1 audio {
+    position: absolute;
+    bottom: 6.5vh;
+    left: 50%;
+    transform: translate(-50%);
+    width: 17rem;
+    height: 2rem;
+    filter: drop-shadow(0.2rem 0.2rem 0.2rem #000000);
+    z-index: 1;
+  }
+
+  .container1 .description-song {
+    position: absolute;
+    font-weight: 300;
+    bottom: 3.4vh;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 0.85rem;
+    color: #c9d1d9;
+    white-space: nowrap;
+    z-index: 1;
+  }
+
+  .container2 {
+    position: absolute;
+    top: 200vh;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/bg-mobile.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: 100% 100%;
+    filter: brightness(80%);
+  }
+
+  .container2 .pumpking {
+    display: none;
+  }
+
+  .container2 .texto {
+    position: absolute;
+    top: 11vh;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%);
+    color: #c9d1d9;
+  }
+
+  .container2 .texto .one,
+  .two {
+    font-family: "Nanum Pen Script", cursive;
+    font-size: 1.9rem;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #000;
+  }
+
+  .container2 .link-s {
+    position: absolute;
+    bottom: 34vh;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%);
+  }
+
+  .container2 .link-s a {
+    font-size: 0.85rem;
+    font-weight: 300;
+    color: #c9d1d9;
+    text-decoration: none;
+    letter-spacing: 0.6rem;
+  }
+
+  .container2 .link-s a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    border-radius: 4px;
+    background-color: #c9d1d9;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .container2 .link-s a:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+  }
+
+  .main-ghosts {
+    background-color: #181818;
+  }
+
+  .main-ghosts .home1 {
+    filter: drop-shadow(0 0 0.5rem #000);
+  }
+
+  .main-ghosts .ghost1 {
+    position: absolute;
+    width: 91vw;
+    top: 53%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    filter: drop-shadow(0 0 0.5rem #000);
+    z-index: 1;
+  }
+
+  .main-ghosts .inbox .inbox-top {
+    filter: drop-shadow(0 0 0.5rem #000);
+  }
+
+  .main-ghosts .ge {
+    position: absolute;
+    left: 10vw;
+    top: 13.5vh;
+    color: #c9d1d9;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+  }
+
+  .main-ghosts .direto {
+    position: absolute;
+    font-size: 0.95rem;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    left: 43.5vw;
+    top: 16vh;
+    color: #c9d1d9;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: #000;
+  }
+
+  .main-ghosts .julho {
+    position: absolute;
+    font-size: 0.95rem;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    left: 82.5vw;
+    top: 16vh;
+    color: #c9d1d9;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: #000;
+  }
+
+  .main-ghosts .left-p {
+    position: absolute;
+    font-size: 0.85rem;
+    font-style: italic;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    top: 81.5vh;
+    left: 16vw;
+    color: #c9d1d9;
+  }
+
+  section {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 99vh;
+    background-color: #181818;
+  }
+
+  section .ge {
+    position: absolute;
+    left: 4vw;
+    top: 16.5vh;
+    font-size: 3.2rem;
+    font-family: "Nanum Pen Script", cursive;
+    color: #c9d1d9;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+  }
+
+  section .direto {
+    position: absolute;
+    font-size: 0.95rem;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    left: 33vw;
+    top: 19.8vh;
+    color: #c9d1d9;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: #000;
+  }
+
+  section .julho {
+    position: absolute;
+    font-size: 0.95rem;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    left: 70vw;
+    top: 19.8vh;
+    color: #c9d1d9;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: #000;
+  }
+
+  section .ghost2 {
+    position: absolute;
+    width: 91vw;
+    top: 53%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    filter: drop-shadow(0 0 0.5rem #000);
+  }
+
+  section .right-p {
+    position: absolute;
+    font-size: 0.85rem;
+    font-style: italic;
+    font-weight: 300;
+    top: 85vh;
+    right: 5vw;
+    color: #c9d1d9;
+  }
+
+  section .ikai-ito {
+    position: absolute;
+    width: 17.3vw;
+    top: -18.9vh;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%);
+  }
+
+  .container-pics {
+    position: absolute;
+    top: 199vh;
+    width: 100vw;
+    height: 70vh;
+    background: rgb(24, 24, 24);
+    background: linear-gradient(
+      180deg,
+      rgba(24, 24, 24, 1) 0%,
+      rgba(246, 196, 147, 1) 100%
+    );
+  }
+
+  .container-pics a {
+    text-decoration: none;
+    color: #121212;
+  }
+
+  .container-pics .balao {
+    position: absolute;
+    bottom: 23vh;
+    right: 11vw;
+    width: 30vw;
+  }
+
+  .container-pics .heen {
+    position: absolute;
+    width: 45vw;
+    bottom: 10vh;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%);
+    filter: drop-shadow(-0.5rem 0 0.3rem #000000);
+  }
+
+  .container-pics .heen-question {
+    position: absolute;
+    bottom: 28.5vh;
+    right: 9.8vh;
+    text-align: center;
+  }
+
+  .container-pics .heen-question .au {
+    font-family: "Nanum Pen Script", cursive;
+    font-size: 2.3rem;
+  }
+
+  .container-pics .heen-question .tradutor {
+    font-style: italic;
+    font-size: 0.5rem;
+  }
+
+  .container-pics .heen-question .tradutor-bottom {
+    position: absolute;
+    bottom: -0.5vh;
+    right: -4.3vw;
+    white-space: nowrap;
+  }
+}
