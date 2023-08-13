@@ -213,7 +213,7 @@ body {
 .carta:hover {
   width: 8.8rem;
   left: 49.9%;
-  filter: drop-shadow(0 0 1rem #ff00ff);
+  filter: drop-shadow(0 0 1rem #ccc);
 }
 
 .letters {
