@@ -459,10 +459,6 @@ section .ikai-ito {
   filter: drop-shadow(-0.5rem 0 0.3rem #000000);
 }
 
-.container-pics .heen:hover {
-  transform: rotate(-0.5deg);
-}
-
 .container-pics .heen-question {
   position: absolute;
   bottom: 41vh;
