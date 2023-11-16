@@ -76,6 +76,13 @@ body {
   font-style: italic;
 }
 
+.roll {
+  position: absolute;
+  top: 18vh;
+  left: 98vw;
+  width: 20vw;
+}
+
 .capa {
   position: absolute;
   top: 16vh;
@@ -94,6 +101,16 @@ body {
 
 .name:hover {
   color: #fff;
+}
+
+.face_head {
+  position: absolute;
+  top: 97vh;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+  width: 10vw;
+  visibility: hidden;
 }
 
 .title {
@@ -130,6 +147,7 @@ body {
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%);
+  transition: all 0.2s ease-in-out;
 }
 
 .articles span:hover {
