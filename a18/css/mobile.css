@@ -1,2 +1,26 @@
 @media screen and (max-width: 767px) {
+  body {
+    height: 230vh;
+  }
+
+  .capa {
+    width: 85vw;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%);
+  }
+
+  .articles {
+    position: absolute;
+    top: 120vh;
+    width: 97vw;
+    height: 70vh;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%);
+  }
+}
+
+@media screen and (max-device-width: 767px) and (orientation: landscape) {
+  /* Seus estilos aqui */
 }
