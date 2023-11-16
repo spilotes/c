@@ -1,6 +1,6 @@
 function ler1() {
   window.scrollTo({
-    top: 825,
+    top: 800,
     left: 0,
     behavior: "smooth",
   });
