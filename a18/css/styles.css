@@ -1,0 +1,210 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  color: #c9d1d9;
+}
+
+body {
+  width: 100vw;
+  height: 130vh;
+  background-color: #000;
+  overflow-x: hidden;
+}
+
+.home1 {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.7rem;
+  font-size: 2rem;
+  cursor: pointer;
+  filter: drop-shadow(0 0.3rem 0.3rem #000);
+  transition: all 0.2s ease-in-out;
+}
+
+.home1:hover {
+  filter: drop-shadow(0 0 0.2rem #c9d1d9);
+}
+
+.home1 a {
+  text-decoration: none;
+}
+
+.inbox {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+}
+
+.inbox .inbox-top {
+  color: #c9d1d9;
+  transition: all 300ms ease-in-out;
+  text-decoration: none;
+}
+
+.inbox .inbox-top:hover {
+  color: #c9d1d9;
+}
+
+.inbox .inbox-top::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  border-radius: 4px;
+  background-color: #c9d1d9;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.inbox .inbox-top:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+.fofura_post_bonus {
+  position: absolute;
+  top: 13vh;
+  left: 8vw;
+  font-weight: 300;
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+.capa {
+  position: absolute;
+  top: 16vh;
+  left: 17vh;
+  width: 40vw;
+  filter: drop-shadow(0 0.3rem 0.3rem #000);
+}
+
+.name {
+  position: absolute;
+  top: 94.2vh;
+  left: 19vh;
+  font-size: 0.95rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.name:hover {
+  color: #fff;
+}
+
+.title {
+  position: absolute;
+  top: 8vh;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+}
+
+.title p {
+  color: #6b727c;
+  font-size: 1.8rem;
+  font-family: "Nanum Pen Script", cursive;
+}
+
+.title .p2 {
+  color: #c9d1d9;
+  font-size: 1.2rem;
+}
+
+.articles {
+  position: absolute;
+  top: 16vh;
+  right: 17vh;
+  width: 40vw;
+  height: 77vh;
+  background-image: url(../img/Desktop.png);
+}
+
+.articles span {
+  position: absolute;
+  top: 5vh;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+}
+
+.articles span:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.articles .two {
+  top: 10vh;
+}
+
+.articles .tree {
+  top: 15vh;
+}
+
+.articles .four {
+  top: 20vh;
+}
+
+.articles .ten {
+  top: 50vh;
+}
+
+.articles a {
+  text-decoration: none;
+}
+
+.totoro {
+  position: absolute;
+  top: 100.55vh;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+  width: 7.7rem;
+  filter: drop-shadow(0 0.4rem 0.4rem #000);
+  z-index: 1;
+  transition: all0.2s ease-in-out;
+}
+
+.totoro:hover {
+  filter: drop-shadow(0 0 0.8rem purple);
+}
+
+audio {
+  position: absolute;
+  top: 120vh;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+  width: 17rem;
+  height: 2rem;
+  filter: drop-shadow(0.2rem 0.2rem 0.2rem #000000);
+}
+
+.description {
+  position: absolute;
+  font-weight: 300;
+  top: 126vh;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+  font-size: 0.85rem;
+  color: #c9d1d9;
+  z-index: 1;
+}
+
+.description:hover {
+  text-decoration: underline;
+}
+
+.date {
+  position: absolute;
+  top: 126vh;
+  right: 1vw;
+  font-size: 0.75rem;
+  font-weight: 300;
+  font-style: italic;
+}
