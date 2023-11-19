@@ -1,4 +1,4 @@
-@media (max-width: 414px) {
+@media screen and (max-width: 767px) {
   .ano {
     font-weight: 300;
   }
@@ -28,7 +28,7 @@
   }
 
   .notification {
-    top: 18vh;
+    top: 25vh;
   }
 
   .carta {
@@ -41,7 +41,7 @@
   }
 
   .mes {
-    top: 52.5vh;
+    top: 53.7vh;
   }
 
   .mes .mes-japones {
@@ -57,7 +57,7 @@
 
   .yoda {
     width: 8.5rem;
-    bottom: 4.7rem;
+    bottom: 3.3rem;
     left: 12.9rem;
   }
 

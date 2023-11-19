@@ -156,7 +156,7 @@ body {
 
 .notification {
   position: absolute;
-  top: 18vh;
+  top: 25vh;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%);
@@ -234,7 +234,7 @@ body {
 
 .mes {
   position: absolute;
-  top: 58.5vh;
+  top: 56.5vh;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%);
@@ -265,7 +265,7 @@ body {
   width: 8.1rem;
   height: 2.5rem;
   background: transparent;
-  top: 66.5vh;
+  top: 63.5vh;
   left: 50%;
   transform: translate(-50%);
   border: 0.1rem solid #c9d1d9;
@@ -305,41 +305,32 @@ body {
 .yoda {
   position: absolute;
   width: 8rem;
-  bottom: 1.5rem;
+  bottom: 3.1rem;
   left: 50%;
   transform: translate(-50%);
   transition: all 0.4s ease-in-out;
+  filter: drop-shadow(0 0.3rem 0.3rem #000);
+  z-index: 1;
 }
 
 .yoda:hover {
   filter: drop-shadow(0 0 1rem #00c91e);
 }
 
-.musica {
-  position: absolute;
-  bottom: 12vh;
-  color: #fff;
-  left: 10.5vw;
-  font-size: 1rem;
-  font-weight: 200;
-  margin-right: -50%;
-  transform: translate(-50%);
-}
-
 audio {
   position: absolute;
-  bottom: 6.5vh;
-  left: 0.5rem;
   width: 17rem;
   height: 2rem;
+  bottom: 4.5vh;
+  left: 39.3vw;
 }
 
 .description {
   position: absolute;
-  font-weight: 300;
-  bottom: 3vh;
-  left: 6rem;
+  bottom: 1vh;
+  left: 46.3vw;
   font-size: 0.95rem;
+  font-weight: 300;
 }
 
 .description:hover {
