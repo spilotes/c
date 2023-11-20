@@ -21,8 +21,12 @@
   }
 
   .inbox {
-    top: 101vh;
+    top: 101.5vh;
     right: 0.5rem;
+  }
+
+  .mark {
+    height: 0.5vh;
   }
 
   .mangas .b45 {
@@ -105,5 +109,8 @@
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%);
+    width: 43vw;
+    height: 2vh;
+    background-color: transparent;
   }
 }
