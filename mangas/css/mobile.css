@@ -10,7 +10,7 @@
   body {
     background: url(../img/bg-mobile.jpg);
     background-size: 100% 100%;
-    backdrop-filter: brightness(15%);
+    backdrop-filter: brightness(18%);
     height: 320vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
