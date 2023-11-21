@@ -88,8 +88,7 @@ body {
   top: 16vh;
   left: 17vh;
   width: 40vw;
-  filter: drop-shadow(0 0.3rem 0.3rem #000);
-}
+  filter: drop-shadow(0.3rem 0.3rem 0.3rem #000000);
 
 .name {
   position: absolute;
