@@ -36,7 +36,6 @@
     top: 77vh;
     width: 20vw;
     visibility: visible;
-    filter: drop-shadow(0.3rem 0.3rem 0.3rem #000000);
   }
 
   audio {
