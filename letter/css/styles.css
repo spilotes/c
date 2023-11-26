@@ -49,10 +49,15 @@ body {
   font-size: 2rem;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
+   filter: drop-shadow(0 0 0.2rem #000);
 }
 
 .um .home a {
   text-decoration: none;
+}
+
+.um .home:hover {
+   filter: drop-shadow(0 0 0.2rem #c9d1d9);
 }
 
 .um .inbox {
