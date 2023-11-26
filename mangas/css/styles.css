@@ -16,7 +16,7 @@ main {
 
 body {
   width: 100vw;
-  height: 320vh;
+  height: 322vh;
   background: url(../img/bg-desk.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -181,6 +181,7 @@ body {
   left: 23vw;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
+  filter: drop-shadow(0.3rem 0 0.3rem #000000);
 }
 
 .mangas .b45:hover {
@@ -210,6 +211,7 @@ body {
   left: 37.2vw;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
+  filter: drop-shadow(0.3rem 0 0.3rem #000000);
 }
 
 .mangas .kimi-no-na-wa:hover {
@@ -239,6 +241,7 @@ body {
   right: 37vw;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
+  filter: drop-shadow(0.3rem 0 0.3rem #000000);
 }
 
 .mangas .n-d34:hover {
@@ -268,6 +271,7 @@ body {
   right: 23vw;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
+  filter: drop-shadow(0.3rem 0 0.3rem #000000);
 }
 
 .mangas .swknu:hover {
@@ -294,9 +298,10 @@ body {
   width: 10rem;
   height: 14.95rem;
   top: 174vh;
-  right: 44vw;
+  left: 37.2vw;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
+  filter: drop-shadow(0.3rem 0 0.3rem #000000);
 }
 
 .mangas .tnk:hover {
@@ -306,7 +311,7 @@ body {
 .mangas .desc-tnk {
   position: absolute;
   top: 211.9vh;
-  right: 43.2vw;
+  left: 36.5vw;
   font-weight: 300;
   font-size: 0.95rem;
   text-align: center;
@@ -315,6 +320,36 @@ body {
 }
 
 .mangas .desc-tnk:hover {
+  text-decoration: underline;
+}
+
+.mangas .koori {
+  position: absolute;
+  width: 10rem;
+  height: 14.95rem;
+  top: 174vh;
+  right: 37vw;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  filter: drop-shadow(0.3rem 0 0.3rem #000000);
+}
+
+.mangas .koori:hover {
+  transform: scale(1.02);
+}
+
+.mangas .desc-koori {
+  position: absolute;
+  top: 211.9vh;
+  left: 51.5vw;
+  font-weight: 300;
+  font-size: 0.95rem;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.mangas .desc-koori:hover {
   text-decoration: underline;
 }
 

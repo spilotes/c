@@ -1,4 +1,4 @@
-@media (max-width: 414px) {
+@media screen and (max-width: 767px) {
   main {
     background: url(../img/cover-mobile.jpg);
     background-repeat: no-repeat;
@@ -94,6 +94,18 @@
     top: 208vh;
     left: 2.5vw;
     font-size: 0.9rem;
+  }
+
+  .mangas .koori {
+    width: 8rem;
+    height: 12rem;
+    top: 184vh;
+    left: 29vh;
+  }
+
+  .mangas .desc-koori {
+    top: 208vh;
+    left: 53.5vw;
   }
 
   audio {
