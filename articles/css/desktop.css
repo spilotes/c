@@ -1,0 +1,43 @@
+@media screen and (min-width: 1400px) {
+  body {
+    height: 125.5vh;
+  }
+
+  .fofura_post_bonus {
+    position: absolute;
+    top: 13.7vh;
+    left: 9.2vw;
+  }
+
+  .capa {
+    position: absolute;
+    top: 16vh;
+    left: 17vh;
+    width: 39vw;
+  }
+
+  .name {
+    position: absolute;
+    top: 83vh;
+    left: 19vh;
+  }
+
+  .articles {
+    top: 16vh;
+    right: 17vh;
+    width: 39vw;
+    height: 65.8vh;
+  }
+
+  audio {
+    top: 116.6vh;
+  }
+
+  .description {
+    top: 121.5vh;
+  }
+
+  .date {
+    top: 122vh;
+  }
+}

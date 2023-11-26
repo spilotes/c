@@ -1,0 +1,128 @@
+@media screen and (max-width: 767px) {
+  body {
+    height: 215.5vh;
+  }
+  .fofura_post_bonus {
+    position: absolute;
+    top: 20vh;
+    left: 5vw;
+    font-weight: 300;
+    font-size: 0.8rem;
+    font-style: italic;
+  }
+
+  .roll {
+    top: 22vh;
+    left: 82.5vw;
+    width: 12vw;
+    z-index: 1;
+  }
+
+  .capa {
+    width: 90vw;
+    top: 22vh;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%);
+  }
+
+  .name {
+    top: 64.2vh;
+    left: 4.5vh;
+    font-weight: 500;
+  }
+
+  .face_head {
+    top: 77vh;
+    width: 20vw;
+    visibility: visible;
+    filter: drop-shadow(0.3rem 0.3rem 0.3rem #000000);
+  }
+
+  audio {
+    top: 115.8vh;
+  }
+
+  .description {
+    top: 120.2vh;
+  }
+
+  .flower {
+    top: 127vh;
+    right: 4vh;
+    width: 22vw;
+  }
+
+  .articles {
+    top: 130vh;
+    width: 95vw;
+    height: 80vh;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%);
+    border-radius: 0.25rem;
+  }
+
+  .articles span {
+    top: 9vh;
+    width: 95%;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+
+  .articles .two {
+    top: 15vh;
+  }
+
+  .articles .tree {
+    top: 21vh;
+  }
+
+  .articles .four {
+    top: 27vh;
+  }
+
+  .articles .five {
+    top: 33vh;
+  }
+
+  .articles .six {
+    top: 39vh;
+  }
+
+  .articles .seven {
+    top: 45vh;
+  }
+
+  .articles .eight {
+    top: 51vh;
+  }
+
+  .articles .nine {
+    top: 55vh;
+  }
+
+  .articles .ten {
+    top: 61vh;
+  }
+
+  .articles .eleven {
+    top: 67vh;
+  }
+
+  .trevo {
+    top: 195vh;
+    right: 5vh;
+    width: 23.5vw;
+  }
+
+  .date {
+    position: absolute;
+    top: 212.5vh;
+    right: 3vw;
+  }
+}
+
+@media screen and (max-device-width: 767px) and (orientation: landscape) {
+  /* Seus estilos aqui */
+}
