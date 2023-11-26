@@ -37,12 +37,16 @@ main .home1 {
   left: 0.7rem;
   font-size: 2rem;
   cursor: pointer;
-  filter: drop-shadow(0 0.3rem 0.3rem #242424);
+  filter: drop-shadow(0 0 0.2rem #000);
   transition: all 0.2s ease-in-out;
 }
 
 main .home1 a {
   text-decoration: none;
+}
+
+main .home1:hover {
+ filter: drop-shadow(0 0 0.2rem #c9d1d9);
 }
 
 main .inbox {
