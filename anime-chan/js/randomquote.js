@@ -1,4 +1,4 @@
-const url = "https://animechan.xyz/api/random";
+const url = "https://animechan.io/api/v1/quotes/random";
 const randomQuoteElement = document.getElementById("random-quote");
 const generateQuoteButton = document.getElementById("generate-quote-button");
 
