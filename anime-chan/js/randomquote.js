@@ -3,7 +3,7 @@ const randomQuoteElement = document.getElementById("random-quote");
 const generateQuoteButton = document.getElementById("generate-quote-button");
 
 function generateQuote() {
-  fetch('https://api.animechan.io/v1/quotes/random')
+  fetch('https://api.animechan.io/v1')
     .then(response => response.json())
     .then(quote => console.log(quote))
     .then((data) => {
