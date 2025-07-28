@@ -8,7 +8,6 @@ function generateQuote() {
     .then((data) => {
       const { anime, character, quote } = data;
       randomQuoteElement.textContent = `"${quote}" - ${character} (${anime})`;
-      randomQuoteElement.style.opacity = 1;
     })
     .catch((error) => console.error(error));
 }
