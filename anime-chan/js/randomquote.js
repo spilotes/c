@@ -1,4 +1,4 @@
-const url = "https://api.animechan.io/v1/quotes/random?anime=ReLIFE";
+const url = "https://api.animechan.io/v1";
 const randomQuoteElement = document.getElementById("random-quote");
 const generateQuoteButton = document.getElementById("generate-quote-button");
 
