@@ -4,7 +4,7 @@ const generateQuoteButton = document.getElementById("generate-quote-button");
 
 function generateQuote() {
   fetch(url)
-    .then((response) => response.json())
+    .then(response => response.json())
     .then((data) => {
       const { anime, character, quote } = data;
       randomQuoteElement.textContent = `"${quote}" - ${character} (${anime})`;
