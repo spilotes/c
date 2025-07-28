@@ -149,15 +149,6 @@ body {
   animation: fadeIn 2s ease 1.8s forwards;
 }
 
-/* Aplica a animação ao objeto */
-#random-quote {
-  animation-name: animacao;
-  animation-duration: 2s;
-  animation-delay: 1.8s; /* Define um atraso de 2 segundos */
-  opacity: 1; /* Define a opacidade inicial como 0 */
-  animation-fill-mode: forwards;
-}
-
 @keyframes fadeIn {
   from {
     opacity: 0;
