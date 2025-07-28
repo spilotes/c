@@ -1,4 +1,6 @@
 const url = "https://api.animechan.io/v1/quotes/random";
+const response = await fetch('/quotes/random')
+const quote = await response.json()
 const randomQuoteElement = document.getElementById("random-quote");
 const generateQuoteButton = document.getElementById("generate-quote-button");
 
